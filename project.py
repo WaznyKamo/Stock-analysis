@@ -6,7 +6,6 @@ from Sripts.data_visualisation import plot_multiple_y_axes
 df_ind = prepare_indicator_data()
 
 st.title("Wykres danych w czasie")
-st.write("Welcome to your first Streamlit app!")
 
 # Panel boczny
 st.sidebar.title("Wybierz kolumnę do wyświetlenia")

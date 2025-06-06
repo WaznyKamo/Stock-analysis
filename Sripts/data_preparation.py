@@ -24,7 +24,7 @@ def prepare_price_data():
     renaming columns, converting date formats, and concatenating data into a single DataFrame.
     """
     directory = "Data/Daily_data"
-    df_price = pd.DataFrame(columns=['Data', 'Otwarcie', 'Najwyzszy', 'Najnizszy', 'Zamkniecie', 'Wolumen'])
+    df_price = pd.DataFrame(columns=['Data', 'Cena otwarcia', 'Cena najwyższa sessji', 'Cena najniższa sessji', 'Cena zamknięcia', 'Wolumen'])
     stock_list = ['ACP', 'ALE', 'ALR', 'CCC', 'CDR', 'CPS', 'DNP', 'JSW', 'KGHM', 'LPP', 'LTS', 'MRC', 'OPL', 'PEO', 'PGE', 'PGN', 'PKN', 'PKO', 'PZU', 'SPL', 'TPE']
     i = 0
 

@@ -52,6 +52,9 @@ for stock_index in range(len(stock_list)):
     stock_url_wr = url_wartosc_rynkowa + stock_list[stock_index]
     response_wr = requests.get(stock_url_wr)
     soup_wr = BeautifulSoup(response_wr.text, features='html.parser')
+    if not soup_wr.find('th', attrs={"class": "thq h newest"}):
+        print(f'No data found for {stock_list[stock_index]}, skipping...')
+        continue
     stock_quarters = get_quarters(soup_wr)
     # Market value indicators
     WK = get_indicator(soup_wr, 'WK')  # book value
@@ -140,7 +143,7 @@ for stock_index in range(len(stock_list)):
     stock_data['Cykl konwersji gotówki'] = get_indicator(soup_aktywnosc, 'CSP')
 
     stock_data_list.append(stock_data)
-    sleep(3)  # too many requests crashed the site, lowered their frequency
+    sleep(2)  # too many requests crashed the site, lowered their frequency
 
 final_dataframe = pd.concat(stock_data_list)
 
