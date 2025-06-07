@@ -1,6 +1,14 @@
 import streamlit as st
+from Sripts.data_preparation import prepare_indicator_data, prepare_latest_indicator_data
 
 st.set_page_config(page_title="Aplikacja Finansowa", layout="wide")
+
+# Wczytaj dane tylko raz
+if "df_ind" not in st.session_state:
+    st.session_state.df_ind = prepare_indicator_data()
+if "df_ind_latest" not in st.session_state:
+    st.session_state.df_ind_latest = prepare_latest_indicator_data()
+    
 
 pages = [
     st.Page("app_pages/1_strona_glowna.py", title="Strona główna", icon="🏠"),
@@ -8,11 +16,9 @@ pages = [
     st.Page("app_pages/3_wyszukiwanie_jednorozcow.py", title="Wyszukiwanie jednorożców", icon="🦄")
 ]
 
-
-
-# st.sidebar.title("📁 Nawigacja")
-# st.sidebar.page_link("Home.py", label="🏠 Strona główna")
-# st.sidebar.page_link("Pages/1_wizualizacja_wskaznikow.py", label="📊 Wizualizacja wskaźników")
-# st.sidebar.page_link("Pages/2_Wyszukiwanie_jednorozcow.py", label="🦄 Wyszukiwanie jednorożców")
 pg = st.navigation(pages, position="sidebar", expanded=True)
 pg.run()
+
+# To run this app, use the terminal:
+# streamlit run Home.py
+

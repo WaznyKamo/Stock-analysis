@@ -13,11 +13,7 @@ col1, col2 = st.columns([1, 3])  # lewa kolumna na wybór, prawa na wykres
 with col1:
     st.header("Wybierz dane")
 
-    if st.button("🔄 Odśwież"):
-        st.session_state.kolumny_wykres = []
-        if 'spolka' in st.session_state:
-            del st.session_state['spolka']
-        st.rerun()
+    
 
     dostepne_spolki = df_ind['Spółka'].unique()
     wybrana_spolka = st.selectbox("Wybierz spółkę", sorted(dostepne_spolki))
@@ -40,6 +36,12 @@ with col1:
 
     st.session_state.kolumny_wykres = nowe_kolumny
 
+    if st.button("🔄 Odśwież"):
+        st.session_state.kolumny_wykres = []
+        if 'spolka' in st.session_state:
+            del st.session_state['spolka']
+        st.rerun()
+
 with col2:
     st.subheader(f"Wykres: {wybrana_spolka}")
-    plot_multiple_y_axes(df_ind_filtered, st.session_state.kolumny_wykres, title_prefix=wybrana_spolka)
+    plot_multiple_y_axes(df_ind_filtered, st.session_state.kolumny_wykres, title_prefix="Wskaźniki")

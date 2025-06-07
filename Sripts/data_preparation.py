@@ -44,9 +44,24 @@ def prepare_price_data():
 
 @st.cache_data
 def prepare_indicator_data():
-    df_ind = pd.read_csv('Data/WiG20_fundamental_indicators.csv')
-    df_ind.head()
-
+    df_ind = pd.read_csv('Data/Fundamental_indicators.csv')
+    # df_ind.head()
     df_ind['Data'] = df_ind['Kwartały'].apply(quarter_to_date)
 
     return df_ind
+
+@st.cache_data
+def prepare_latest_indicator_data():
+    df_ind_latest = pd.read_csv('Data/Fundamental_indicators_latest.csv')
+
+    return df_ind_latest
+
+@st.cache_data
+def stock_latest_data():
+    """
+    Returns the latest stock data from the prepared price data.
+    """
+    df_price = prepare_price_data()
+    latest_data = df_price.groupby('Spółka').last().reset_index()
+    latest_data = latest_data.rename(columns={'Data': 'Ostatnia aktualizacja'})
+    return latest_data[['Spółka', 'Ostatnia aktualizacja']]

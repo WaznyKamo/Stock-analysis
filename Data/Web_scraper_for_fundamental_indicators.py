@@ -4,7 +4,7 @@ import pandas as pd
 import os
 from time import sleep
 
-directory = r"C:\Users\Kamil\OneDrive\Python projects\Stock-visualisations\Data\WiG20_fundamental_indicators.csv"
+directory = r"C:\Users\Kamil\OneDrive\Python projects\Stock-visualisations\Data\Fundamental_indicators.csv"
 daily_data_directory = r"C:\Users\Kamil\OneDrive\Python projects\Stock-visualisations\Data\Daily_data"
 
 url_wartosc_rynkowa = 'https://www.biznesradar.pl/wskazniki-wartosci-rynkowej/'
