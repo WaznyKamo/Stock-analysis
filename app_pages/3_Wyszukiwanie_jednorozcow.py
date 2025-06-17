@@ -15,27 +15,21 @@ else:
     st.subheader("Filtruj dane")
     num_cols = df_ind_latest.select_dtypes(include='number').columns.tolist()
 
-    if not num_cols:
-        st.warning("Brak kolumn numerycznych do filtrowania.")
-        st.dataframe(df_ind_latest)
-    else:
+    with st.form("filter_form"):
         col1, col2, col3 = st.columns([2, 1, 2])
-
         with col1:
-            selected_col = st.selectbox("Kolumna", num_cols)
+            selected_col = st.selectbox("Nazwa wskaźnika", num_cols)
         with col2:
-            operator = st.selectbox("Filtr", [">", "=", "<"])
+            operator = st.selectbox("Funkcja", [">=", "<="])
         with col3:
             value = st.number_input("Wartość", value=0.0)
+        submitted = st.form_submit_button("Filtruj")
 
-        # Zastosuj filtr
-        try:
-            if operator == ">":
-                filtered_df = df_ind_latest[df_ind_latest[selected_col] > value]
-            elif operator == "<":
-                filtered_df = df_ind_latest[df_ind_latest[selected_col] < value]
-            else:
-                filtered_df = df_ind_latest[df_ind_latest[selected_col] == value]
-            st.dataframe(filtered_df)
-        except Exception as e:
-            st.error(f"Wystąpił błąd podczas filtrowania: {e}")
+    if submitted:
+        if operator == ">=":
+            filtered_df = df_ind_latest[df_ind_latest[selected_col] >= value]
+        else:
+            filtered_df = df_ind_latest[df_ind_latest[selected_col] <= value]
+        st.dataframe(filtered_df)
+    else:
+        st.dataframe(df_ind_latest)

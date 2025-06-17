@@ -24,6 +24,7 @@ with col1:
     if 'kolumny_wykres' not in st.session_state:
         st.session_state.kolumny_wykres = [kolumny_danych[0]]
 
+
     if st.button("➕ Dodaj kolumnę"):
         niewybrane = [k for k in kolumny_danych if k not in st.session_state.kolumny_wykres]
         if niewybrane:
@@ -34,7 +35,10 @@ with col1:
         selected = st.selectbox(f"Kolumna {i+1}", kolumny_danych, index=kolumny_danych.index(kol), key=f"kol_{i}")
         nowe_kolumny.append(selected)
 
+
     st.session_state.kolumny_wykres = nowe_kolumny
+
+
 
     if st.button("🔄 Odśwież"):
         st.session_state.kolumny_wykres = []

@@ -53,7 +53,16 @@ def prepare_indicator_data():
 @st.cache_data
 def prepare_latest_indicator_data():
     df_ind_latest = pd.read_csv('Data/Fundamental_indicators_latest.csv')
-
+    # Zamiana przecinków na kropki i rzutowanie kolumn numerycznych na liczby
+    num_cols = df_ind_latest.select_dtypes(include='object').columns
+    for col in num_cols:
+        df_ind_latest[col] = (
+            df_ind_latest[col]
+            .astype(str)
+            .str.replace(' ', '', regex=False)
+            .str.replace(',', '.', regex=False)
+        )
+        df_ind_latest[col] = pd.to_numeric(df_ind_latest[col], errors='ignore')
     return df_ind_latest
 
 @st.cache_data

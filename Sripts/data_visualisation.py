@@ -7,40 +7,62 @@ def plot_multiple_y_axes(df, columns, title_prefix="Wykres"):
         return
 
     fig = go.Figure()
-    colors = ['blue', 'green', 'red', 'orange', 'purple', 'brown', 'gray']
+    colors = ['blue', 'green', 'red', 'orange', 'purple', 'brown', 'gray', 'cyan', 'magenta']
+
+    # Rezerwujemy przestrzeń od 0.8 do 1.0 na dodatkowe osie Y po prawej
+    min_position = 0.8
+    max_position = 1.0
+    num_additional_axes = len(columns) - 1
+
+    step = (max_position - min_position) / max(num_additional_axes, 1) if num_additional_axes > 0 else 0
 
     for i, col in enumerate(columns):
-        yaxis_name = f'y{i+1}'
-        showaxis = (i > 0)
-        axis_id = '' if i == 0 else str(i + 1)
-        
+        axis_suffix = '' if i == 0 else str(i + 1)
+        yaxis_name = f'yaxis{axis_suffix}'
+        yaxis_ref = f'y{axis_suffix}'
+
         fig.add_trace(go.Scatter(
             x=df['Data'],
             y=df[col],
             name=col,
-            yaxis=f'y{axis_id}',
+            yaxis=yaxis_ref,
+            xaxis='x',  # Wszystkie serie korzystają z tej samej osi X
             line=dict(color=colors[i % len(colors)])
         ))
 
-        # Dodaj dodatkową oś Y jeśli potrzebna
-        if showaxis:
+        if i > 0:
+            position = min_position + step * (i - 1)
             fig.update_layout(**{
-                f'yaxis{axis_id}': dict(
-                    title=col,
+                yaxis_name: dict(
+                    title=None,  # <-- Ukryj tytuł osi Y
                     overlaying='y',
                     side='right',
-                    position=1.0 - 0.05 * (i - 1),
-                    showgrid=False
+                    position=round(position, 3),
+                    showgrid=False,
+                    tickfont=dict(color=colors[i % len(colors)])
                 )
             })
 
-    # Oś X i pierwsza oś Y
+    # Konfiguracja głównej osi Y i osi X
     fig.update_layout(
         title=f"{title_prefix}: {', '.join(columns)}",
-        xaxis=dict(title='Data'),
-        yaxis=dict(title=columns[0]),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="center", x=0.5),
-        margin=dict(l=40, r=40, t=80, b=40)
+        xaxis=dict(
+            title='Data',
+            tickfont=dict(size=10),
+            domain=[0.0, 0.8],  # Os X zajmuje do 80% szerokości wykresu
+        ),
+        yaxis=dict(
+            title=None,  # <-- Ukryj tytuł osi Y
+            tickfont=dict(color=colors[0])
+        ),
+        legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=1.02,
+            xanchor="center",
+            x=0.5
+        ),
+        margin=dict(l=60, r=120, t=80, b=100)  # Więcej miejsca po prawej na osie Y
     )
 
     st.plotly_chart(fig, use_container_width=True)
