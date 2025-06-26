@@ -19,6 +19,23 @@ pages = [
 pg = st.navigation(pages, position="sidebar", expanded=True)
 pg.run()
 
-# To run this app, use the terminal:
-# streamlit run Home.py
+# TODO:
+# Pozyskiwanie danych:
+#  - pobieranie nazwy spółki
+#  - pobieranie sektora
+#  - rozbicie danych na dane i wskaźniki
+#  - pobieranie pozostałych danych/wskaźników fundamentalnych
+#  - wyliczenie danych sektorowych
+#  - pobieranie wskaźników technicznych
 
+# Wizualizacja wskaźników:
+#  - dodanie nazw spółek do wyszukiwarki
+#  - przegląd dostępnych danych
+
+# Wyszukiwarka niedoszacowanych spółek:
+#  - możliwość filtrowania po wielu wskaźnikach
+
+# Wyszukiwarka szybko rozwijających się spółek:
+#  - wybranie wskaźników do analizy
+#  - wyliczenie zmiany wskaźników r/r, k/k
+#  - możliwość filtrowania po zmianach na wskaźnikach
