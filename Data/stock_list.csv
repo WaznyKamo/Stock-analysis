@@ -1,369 +1,355 @@
-ticker,name,adress
-06N,06MAGNA,https://www.biznesradar.pl/notowania/06N
-08N,08OCTAVA,https://www.biznesradar.pl/notowania/OCTAVA
-11B,11BIT,https://www.biznesradar.pl/notowania/11-BIT-STUDIOS
-1AT,ATAL,https://www.biznesradar.pl/notowania/ATAL
-3RG,3RGAMES,https://www.biznesradar.pl/notowania/3RG
-4MS,4MASS,https://www.biznesradar.pl/notowania/4MS
-AAT,ALTA,https://www.biznesradar.pl/notowania/AAT
-ABE,ABPL,https://www.biznesradar.pl/notowania/ABE
-ABS,ASSECOBS,https://www.biznesradar.pl/notowania/ASSECO-BUSINESS-SOLUTIONS
-ACG,ACAUTOGAZ,https://www.biznesradar.pl/notowania/ACG
-ACP,ASSECOPOL,https://www.biznesradar.pl/notowania/ASSECO-POLAND
-ACT,ACTION,https://www.biznesradar.pl/notowania/ACTION
-ADV,ADIUVO,https://www.biznesradar.pl/notowania/ADIUVO-INVESTMENT
-AGO,AGORA,https://www.biznesradar.pl/notowania/AGORA
-AGT,AGROTON,https://www.biznesradar.pl/notowania/AGROTON
-ALE,ALLEGRO,https://www.biznesradar.pl/notowania/ALE
-ALG,AIGAMES,https://www.biznesradar.pl/notowania/ALG
-ALI,ALTUS,https://www.biznesradar.pl/notowania/ALTUS
-ALL,AILLERON,https://www.biznesradar.pl/notowania/ALL
-ALR,ALIOR,https://www.biznesradar.pl/notowania/ALIOR-BANK
-AMB,AMBRA,https://www.biznesradar.pl/notowania/AMBRA
-AMC,AMICA,https://www.biznesradar.pl/notowania/AMICA
-ANR,ANSWEAR,https://www.biznesradar.pl/notowania/ANR
-APE,APSENERGY,https://www.biznesradar.pl/notowania/APS-ENERGIA
-APL,AMPLI,https://www.biznesradar.pl/notowania/APL
-APN,APLISENS,https://www.biznesradar.pl/notowania/APLISENS
-APR,AUTOPARTN,https://www.biznesradar.pl/notowania/APR
-APT,APATOR,https://www.biznesradar.pl/notowania/APATOR
-ARH,ARCHICOM,https://www.biznesradar.pl/notowania/ARH
-ARL,ARLEN,https://www.biznesradar.pl/notowania/ARL
-ART,ARTIFEX,https://www.biznesradar.pl/notowania/ARTIFEX
-ASB,ASBIS,https://www.biznesradar.pl/notowania/ASBISC
-ASE,ASSECOSEE,https://www.biznesradar.pl/notowania/ASSECO-SOUTH-EASTERN-EUROPE
-AST,ASTARTA,https://www.biznesradar.pl/notowania/ASTARTA
-ATC,ARCTIC,https://www.biznesradar.pl/notowania/ARCTIC-PAPER
-ATD,ATENDE,https://www.biznesradar.pl/notowania/ATENDE
-ATG,ATMGRUPA,https://www.biznesradar.pl/notowania/ATM-GRUPA
-ATP,ATLANTAPL,https://www.biznesradar.pl/notowania/ATLANTA-POLAND
-ATR,ATREM,https://www.biznesradar.pl/notowania/ATREM
-ATS,ATLANTIS,https://www.biznesradar.pl/notowania/ATS
-ATT,GRUPAAZOTY,https://www.biznesradar.pl/notowania/ATT
-AWM,AIRWAY,https://www.biznesradar.pl/notowania/AIRWAY-MEDIX
-B24,BRAND24,https://www.biznesradar.pl/notowania/B24
-BBD,BBIDEV,https://www.biznesradar.pl/notowania/BBI-DEVELOPMENT
-BBT,BOOMBIT,https://www.biznesradar.pl/notowania/BBT
-BCM,BETACOM,https://www.biznesradar.pl/notowania/BETACOM
-BCS,BIGCHEESE,https://www.biznesradar.pl/notowania/BCS
-BCX,BIOCELTIX,https://www.biznesradar.pl/notowania/BCX
-BDX,BUDIMEX,https://www.biznesradar.pl/notowania/BUDIMEX
-BFT,BENEFIT,https://www.biznesradar.pl/notowania/BENEFIT-SYSTEMS
-BHW,HANDLOWY,https://www.biznesradar.pl/notowania/BANK-HANDLOWY
-BIO,BIOTON,https://www.biznesradar.pl/notowania/BIOTON
-BIP,BIOPLANET,https://www.biznesradar.pl/notowania/BIO-PLANET
-BLO,BLOOBER,https://www.biznesradar.pl/notowania/BLOOBER-TEAM
-BMC,BUMECH,https://www.biznesradar.pl/notowania/BUMECH
-BMX,BIOMAXIMA,https://www.biznesradar.pl/notowania/BIOMAXIMA
-BNP,BNPPPL,https://www.biznesradar.pl/notowania/BNP
-BOS,BOS,https://www.biznesradar.pl/notowania/BANK-OCHRONY-SRODOWISKA
-BOW,BOWIM,https://www.biznesradar.pl/notowania/BOWIM
-BRS,BORYSZEW,https://www.biznesradar.pl/notowania/BORYSZEW
-BST,BEST,https://www.biznesradar.pl/notowania/BEST
-CAP,CAPITEA,https://www.biznesradar.pl/notowania/CAP
-CAR,INTERCARS,https://www.biznesradar.pl/notowania/INTER-CARS
-CAV,CAVATINA,https://www.biznesradar.pl/notowania/CAV
-CBF,CYBERFLKS,https://www.biznesradar.pl/notowania/CBF
-CCC,CCC,https://www.biznesradar.pl/notowania/CCC
-CCE,CCENERGY,https://www.biznesradar.pl/notowania/CLEAN-CARBON-ENERGY
-CDL,CDRL,https://www.biznesradar.pl/notowania/CDL
-CDR,CDPROJEKT,https://www.biznesradar.pl/notowania/CD-PROJEKT
-CEZ,CEZ,https://www.biznesradar.pl/notowania/CEZ
-CIG,CIGAMES,https://www.biznesradar.pl/notowania/CI-GAMES
-CLC,COLUMBUS,https://www.biznesradar.pl/notowania/COLUMBUS-CAPITAL
-CLD,CLOUD,https://www.biznesradar.pl/notowania/CLOUD-TECHNOLOGIES
-CLE,COALENERG,https://www.biznesradar.pl/notowania/COAL-ENERGY
-CLN,CLNPHARMA,https://www.biznesradar.pl/notowania/CLNPHARMA
-CMP,COMP,https://www.biznesradar.pl/notowania/COMP
-COG,COGNOR,https://www.biznesradar.pl/notowania/COGNOR
-CPA,CAPITAL,https://www.biznesradar.pl/notowania/CAPITAL-PARTNERS
-CPD,CELTIC,https://www.biznesradar.pl/notowania/CPD
-CPI,CPIEUROPE,https://www.biznesradar.pl/notowania/CPI
-CPL,COMPERIA,https://www.biznesradar.pl/notowania/COMPERIA-PL
-CPR,COMPREMUM,https://www.biznesradar.pl/notowania/CPR
-CPS,CYFRPLSAT,https://www.biznesradar.pl/notowania/CYFROWY-POLSAT
-CRI,CREOTECH,https://www.biznesradar.pl/notowania/CRI
-CRJ,CREEPYJAR,https://www.biznesradar.pl/notowania/CRJ
-CRM,CORMAY,https://www.biznesradar.pl/notowania/CORMAY
-CSR,CASPAR,https://www.biznesradar.pl/notowania/CASPAR-ASSET-MANAGEMENT
-CTS,CITYSERV,https://www.biznesradar.pl/notowania/CTS
-CTX,CAPTORTX,https://www.biznesradar.pl/notowania/CTX
-CZT,CZTOREBKA,https://www.biznesradar.pl/notowania/CZERWONA-TOREBKA
-DAD,DADELO,https://www.biznesradar.pl/notowania/DAD
-DAT,DATAWALK,https://www.biznesradar.pl/notowania/DAT
-DBC,DEBICA,https://www.biznesradar.pl/notowania/DEBICA
-DBE,DBENERGY,https://www.biznesradar.pl/notowania/DBE
-DCR,DECORA,https://www.biznesradar.pl/notowania/DECORA
-DEK,DEKPOL,https://www.biznesradar.pl/notowania/DEKPOL
-DEL,DELKO,https://www.biznesradar.pl/notowania/DELKO
-DGA,DGA,https://www.biznesradar.pl/notowania/DGA
-DGE,DRAGOENT,https://www.biznesradar.pl/notowania/DGE
-DIA,DIAG,https://www.biznesradar.pl/notowania/DIA
-DIG,DIGITANET,https://www.biznesradar.pl/notowania/DIG
-DMG,DMGROUP,https://www.biznesradar.pl/notowania/DMG
-DNP,DINOPL,https://www.biznesradar.pl/notowania/DNP
-DOM,DOMDEV,https://www.biznesradar.pl/notowania/DOM-DEVELOPMENT
-DTR,DIGITREE,https://www.biznesradar.pl/notowania/DTR
-DVL,DEVELIA,https://www.biznesradar.pl/notowania/DVL
-EAH,ESOTIQ,https://www.biznesradar.pl/notowania/ESOTIQ-HENDERSON
-EAT,AMREST,https://www.biznesradar.pl/notowania/EAT
-ECB,ECBSA,https://www.biznesradar.pl/notowania/ELEKTROCIEPLOWNIA-BEDZIN
-ECH,ECHO,https://www.biznesradar.pl/notowania/ECHO-INVESTMENT
-EDI,EDINVEST,https://www.biznesradar.pl/notowania/ED-INVEST
-EFK,EFEKT,https://www.biznesradar.pl/notowania/EFEKT
-EHG,EUROHOLD,https://www.biznesradar.pl/notowania/EUROHOLD-BULGARIA
-EKP,ELKOP,https://www.biznesradar.pl/notowania/EKP
-ELT,ELEKTROTI,https://www.biznesradar.pl/notowania/ELEKTROTIM
-ENA,ENEA,https://www.biznesradar.pl/notowania/ENA
-ENE,ENELMED,https://www.biznesradar.pl/notowania/ENEL-MED
-ENG,ENERGA,https://www.biznesradar.pl/notowania/ENERGA
-ENI,ENERGOINS,https://www.biznesradar.pl/notowania/ENERGOINSTAL
-ENP,ENAP,https://www.biznesradar.pl/notowania/ENERGOAPARATURA
-ENT,ENTER,https://www.biznesradar.pl/notowania/ENT
-EQU,EQUNICO,https://www.biznesradar.pl/notowania/EQU
-ERB,ERBUD,https://www.biznesradar.pl/notowania/ERBUD
-ERG,ERG,https://www.biznesradar.pl/notowania/ERG
-ETL,EUROTEL,https://www.biznesradar.pl/notowania/EUROTEL
-EUC,EUCO,https://www.biznesradar.pl/notowania/EUROPEJSKIE-CENTRUM-ODSZKODOWAN
-EUR,EUROCASH,https://www.biznesradar.pl/notowania/EUROCASH
-FAB,FABRITY,https://www.biznesradar.pl/notowania/FAB
-FEE,FEERUM,https://www.biznesradar.pl/notowania/FEERUM
-FMG,FMG,https://www.biznesradar.pl/notowania/FMG
-FRO,FERRO,https://www.biznesradar.pl/notowania/FERRO
-FSG,FASING,https://www.biznesradar.pl/notowania/FASING
-FTE,FORTE,https://www.biznesradar.pl/notowania/FORTE
-GEA,GRENEVIA,https://www.biznesradar.pl/notowania/GRENEVIA
-GIF,GAMFACTOR,https://www.biznesradar.pl/notowania/GIF
-GIG,GIGROUP,https://www.biznesradar.pl/notowania/GIG
-GKI,IMMOBILE,https://www.biznesradar.pl/notowania/GKI
-GMT,GENOMTEC,https://www.biznesradar.pl/notowania/GMT
-GOB,GOBARTO,https://www.biznesradar.pl/notowania/GOBARTO
-GOP,GAMEOPS,https://www.biznesradar.pl/notowania/GOP
-GPP,GRUPRACUJ,https://www.biznesradar.pl/notowania/GPP
-GPW,GPW,https://www.biznesradar.pl/notowania/GPW
-GRN,GRODNO,https://www.biznesradar.pl/notowania/GRODNO
-GRX,GREENX,https://www.biznesradar.pl/notowania/GRX
-GTC,GTC,https://www.biznesradar.pl/notowania/GTC
-GTN,GETIN,https://www.biznesradar.pl/notowania/GETIN-HOLDING
-HDR,HYDROTOR,https://www.biznesradar.pl/notowania/HYDROTOR
-HEL,HELIO,https://www.biznesradar.pl/notowania/HELIO
-HRP,HARPER,https://www.biznesradar.pl/notowania/HARPER-HYGIENICS
-HRS,HERKULES,https://www.biznesradar.pl/notowania/HERKULES
-HUG,HUUUGE,https://www.biznesradar.pl/notowania/HUG
-IBS,IBSM,https://www.biznesradar.pl/notowania/IBSM
-ICE,MEDINICE,https://www.biznesradar.pl/notowania/ICE
-IFI,IFIRMA,https://www.biznesradar.pl/notowania/IFI
-IMC,IMCOMPANY,https://www.biznesradar.pl/notowania/INDUSTRIAL-MILK-COMPANY
-IMP,IMPERIO,https://www.biznesradar.pl/notowania/IMP
-IMS,IMS,https://www.biznesradar.pl/notowania/IMS
-INC,INC,https://www.biznesradar.pl/notowania/INC
-ING,INGBSK,https://www.biznesradar.pl/notowania/ING-BANK-SLASKI
-INK,INSTALKRK,https://www.biznesradar.pl/notowania/INSTAL-KRAKOW
-INL,INTROL,https://www.biznesradar.pl/notowania/INTROL
-INP,INPRO,https://www.biznesradar.pl/notowania/INPRO
-IPE,IPOPEMA,https://www.biznesradar.pl/notowania/IPOPEMA
-IPO,INTERSPPL,https://www.biznesradar.pl/notowania/INTERSPPL
-ITB,INTERBUD,https://www.biznesradar.pl/notowania/INTERBUD-LUBLIN
-IZB,IZOBLOK,https://www.biznesradar.pl/notowania/IZOBLOK
-IZO,IZOLACJA,https://www.biznesradar.pl/notowania/IZOLACJA-JAROCIN
-IZS,IZOSTAL,https://www.biznesradar.pl/notowania/IZOSTAL
-JRH,JRH,https://www.biznesradar.pl/notowania/JRH
-JSW,JSW,https://www.biznesradar.pl/notowania/JSW-JASTRZEBSKA-SPOLKA-WEGLOWA
-JWW,JWWINVEST,https://www.biznesradar.pl/notowania/JWW-INVEST
-KCH,KRAKCHEM,https://www.biznesradar.pl/notowania/KRAKCHEMIA
-KCI,KCI,https://www.biznesradar.pl/notowania/KCI
-KER,KERNEL,https://www.biznesradar.pl/notowania/KERNEL
-KGH,KGHM,https://www.biznesradar.pl/notowania/KGHM
-KGL,KGL,https://www.biznesradar.pl/notowania/KGL
-KGN,KOGENERA,https://www.biznesradar.pl/notowania/KOGENERACJA
-KMP,KOMPAP,https://www.biznesradar.pl/notowania/KOMPAP
-KOM,KOMPUTRON,https://www.biznesradar.pl/notowania/KOMPUTRONIK
-KPD,KPPD,https://www.biznesradar.pl/notowania/KPD
-KPL,KINOPOL,https://www.biznesradar.pl/notowania/KINO-POLSKA-TV
-KRK,KRKA,https://www.biznesradar.pl/notowania/KRKA
-KRU,KRUK,https://www.biznesradar.pl/notowania/KRUK
-KSG,KSGAGRO,https://www.biznesradar.pl/notowania/KSG-AGRO
-KTY,KETY,https://www.biznesradar.pl/notowania/KETY
-KVT,KRVITAMIN,https://www.biznesradar.pl/notowania/KVT
-LBT,LIBET,https://www.biznesradar.pl/notowania/LIBET
-LBW,LUBAWA,https://www.biznesradar.pl/notowania/LUBAWA
-LEN,LENA,https://www.biznesradar.pl/notowania/LENA-LIGHTING
-LES,LESS,https://www.biznesradar.pl/notowania/LES
-LKD,LOKUM,https://www.biznesradar.pl/notowania/LKD
-LPP,LPP,https://www.biznesradar.pl/notowania/LPP
-LRQ,LARQ,https://www.biznesradar.pl/notowania/LRQ
-LSI,LSISOFT,https://www.biznesradar.pl/notowania/LSI-SOFTWARE
-LTX,LENTEX,https://www.biznesradar.pl/notowania/LENTEX
-LWB,BOGDANKA,https://www.biznesradar.pl/notowania/BOGDANKA
-MAB,MABION,https://www.biznesradar.pl/notowania/MABION
-MAK,MAKARONPL,https://www.biznesradar.pl/notowania/MAKARONY-POLSKIE
-MBK,MBANK,https://www.biznesradar.pl/notowania/MBANK
-MBR,MOBRUK,https://www.biznesradar.pl/notowania/MBR
-MCI,MCI,https://www.biznesradar.pl/notowania/MCI
-MCR,MERCOR,https://www.biznesradar.pl/notowania/MERCOR
-MDG,MEDICALG,https://www.biznesradar.pl/notowania/MDG
-MDI,MDIENERGIA,https://www.biznesradar.pl/notowania/MDI
-MEX,MEXPOLSKA,https://www.biznesradar.pl/notowania/MEX-POLSKA
-MFO,MFO,https://www.biznesradar.pl/notowania/MFO
-MGT,MANGATA,https://www.biznesradar.pl/notowania/MGT
-MIL,MILLENNIUM,https://www.biznesradar.pl/notowania/BANK-MILLENNIUM
-MIR,MIRACULUM,https://www.biznesradar.pl/notowania/MIRACULUM
-MLG,MLPGROUP,https://www.biznesradar.pl/notowania/MLP-GROUP
-MLK,MILKILAND,https://www.biznesradar.pl/notowania/MLK
-MLS,MLSYSTEM,https://www.biznesradar.pl/notowania/MLS
-MNC,MENNICA,https://www.biznesradar.pl/notowania/MENNICA-POLSKA
-MOC,MOLECURE,https://www.biznesradar.pl/notowania/MOC
-MOL,MOL,https://www.biznesradar.pl/notowania/MOL-MAGYAR-OLAJ
-MON,MONNARI,https://www.biznesradar.pl/notowania/MONNARI-TRADE
-MOV,MOVIEGAMES,https://www.biznesradar.pl/notowania/MOV
-MRB,MIRBUD,https://www.biznesradar.pl/notowania/MIRBUD
-MRC,MERCATOR,https://www.biznesradar.pl/notowania/MERCATOR
-MSP,MOSTALPLC,https://www.biznesradar.pl/notowania/MOSTOSTAL-PLOCK
-MSW,MOSTALWAR,https://www.biznesradar.pl/notowania/MOSTOSTAL-WARSZAWA
-MSZ,MOSTALZAB,https://www.biznesradar.pl/notowania/MOSTOSTAL-ZABRZE
-MUR,MURAPOL,https://www.biznesradar.pl/notowania/MUR
-MVP,MARVIPOL,https://www.biznesradar.pl/notowania/MVP
-MWT,MWTRADE,https://www.biznesradar.pl/notowania/MW-TRADE
-MXC,MAXCOM,https://www.biznesradar.pl/notowania/MXC
-MZA,MUZA,https://www.biznesradar.pl/notowania/MUZA
-NCL,NOCTILUCA,https://www.biznesradar.pl/notowania/NCL
-NEU,NEUCA,https://www.biznesradar.pl/notowania/NEUCA
-NNG,NANOGROUP,https://www.biznesradar.pl/notowania/NNG
-NTC,NTCAPITAL,https://www.biznesradar.pl/notowania/NTC
-NTT,NTTSYSTEM,https://www.biznesradar.pl/notowania/NTT
-NTU,NOVATURAS,https://www.biznesradar.pl/notowania/NTU
-NVA,PANOVA,https://www.biznesradar.pl/notowania/PANOVA
-NVG,NOVAVISGR,https://www.biznesradar.pl/notowania/NVG
-NVT,NOVITA,https://www.biznesradar.pl/notowania/NOVITA
-NWG,NEWAG,https://www.biznesradar.pl/notowania/NEWAG
-NXG,NEXITY,https://www.biznesradar.pl/notowania/NXG
-OBL,ORZBIALY,https://www.biznesradar.pl/notowania/ORZEL-BIALY
-ODL,ODLEWNIE,https://www.biznesradar.pl/notowania/ODLEWNIE-POLSKIE
-OND,ONDE,https://www.biznesradar.pl/notowania/OND
-ONO,ONESANO,https://www.biznesradar.pl/notowania/ONO
-OPG,ORCOGROUP,https://www.biznesradar.pl/notowania/OPG
-OPL,ORANGEPL,https://www.biznesradar.pl/notowania/ORANGE
-OPM,OPTEAM,https://www.biznesradar.pl/notowania/OPTEAM
-OPN,OPONEO.PL,https://www.biznesradar.pl/notowania/OPONEO-PL
-OTM,OTMUCHOW,https://www.biznesradar.pl/notowania/OTMUCHOW
-OTS,OTLOG,https://www.biznesradar.pl/notowania/OT-LOGISTICS
-PAS,PASSUS,https://www.biznesradar.pl/notowania/PAS
-PAT,PATENTUS,https://www.biznesradar.pl/notowania/PATENTUS
-PBX,PEKABEX,https://www.biznesradar.pl/notowania/PEKABEX
-PCE,POLICE,https://www.biznesradar.pl/notowania/POLICE
-PCF,PCFGROUP,https://www.biznesradar.pl/notowania/PCF
-PCO,PEPCO,https://www.biznesradar.pl/notowania/PCO
-PCR,PCCROKITA,https://www.biznesradar.pl/notowania/ROKITA
-PCX,PCCEXOL,https://www.biznesradar.pl/notowania/PCC-EXOL
-PEN,PHOTON,https://www.biznesradar.pl/notowania/PHOTON
-PEO,PEKAO,https://www.biznesradar.pl/notowania/PEKAO
-PEP,PEP,https://www.biznesradar.pl/notowania/POLENERGIA
-PGE,PGE,https://www.biznesradar.pl/notowania/PGE
-PGM,PMPG,https://www.biznesradar.pl/notowania/PGM
-PHN,PHN,https://www.biznesradar.pl/notowania/POLSKI-HOLDING-NIERUCHOMOSCI
-PHR,PHARMENA,https://www.biznesradar.pl/notowania/PHARMENA
-PJP,PJPMAKRUM,https://www.biznesradar.pl/notowania/PROJPRZEM
-PKN,PKNORLEN,https://www.biznesradar.pl/notowania/ORLEN
-PKO,PKOBP,https://www.biznesradar.pl/notowania/PKO
-PKP,PKPCARGO,https://www.biznesradar.pl/notowania/PKPCARGO
-PLW,PLAYWAY,https://www.biznesradar.pl/notowania/PLAYWAY
-PLZ,PLAZACNTR,https://www.biznesradar.pl/notowania/PLAZACNTR
-PMP,PAMAPOL,https://www.biznesradar.pl/notowania/PAMAPOL
-PPS,PEPEES,https://www.biznesradar.pl/notowania/PEPEES
-PRI,PRAGMAINK,https://www.biznesradar.pl/notowania/PRI
-PRM,PROCHEM,https://www.biznesradar.pl/notowania/PROCHEM
-PTG,POLTREG,https://www.biznesradar.pl/notowania/PTG
-PTW,PTWP,https://www.biznesradar.pl/notowania/PTWP
-PUR,PURE,https://www.biznesradar.pl/notowania/PUR
-PWX,POLWAX,https://www.biznesradar.pl/notowania/POLWAX
-PXM,POLIMEXMS,https://www.biznesradar.pl/notowania/POLIMEX
-PZU,PZU,https://www.biznesradar.pl/notowania/PZU
-QNA,QNATECHNO,https://www.biznesradar.pl/notowania/QNA
-QNT,QUANTUM,https://www.biznesradar.pl/notowania/QUANTUM-SOFTWARE
-QRS,QUERCUS,https://www.biznesradar.pl/notowania/QUERCUS
-RAE,RAEN,https://www.biznesradar.pl/notowania/RAE
-RAF,RAFAMET,https://www.biznesradar.pl/notowania/RAFAMET
-RBW,RAINBOW,https://www.biznesradar.pl/notowania/RAINBOW-TOURS
-RFK,RAFAKO,https://www.biznesradar.pl/notowania/RAFAKO
-RLP,RELPOL,https://www.biznesradar.pl/notowania/RELPOL
-RMK,REMAK,https://www.biznesradar.pl/notowania/REMAK
-RNC,REINO,https://www.biznesradar.pl/notowania/RNC
-RND,RENDER,https://www.biznesradar.pl/notowania/RND
-RNK,RANKPROGR,https://www.biznesradar.pl/notowania/RANK-PROGRESS
-RPC,ROPCZYCE,https://www.biznesradar.pl/notowania/ROPCZYCE
-RVU,RYVU,https://www.biznesradar.pl/notowania/RVU
-RWL,RAWLPLUG,https://www.biznesradar.pl/notowania/RAWLPLUG
-SAN,SANTANDER,https://www.biznesradar.pl/notowania/SANTANDER
-SCP,SCPFL,https://www.biznesradar.pl/notowania/SCP
-SEK,SEKO,https://www.biznesradar.pl/notowania/SEKO
-SEL,SELENAFM,https://www.biznesradar.pl/notowania/SELENA-FM
-SFS,SFINKS,https://www.biznesradar.pl/notowania/SFINKS
-SGN,SYGNITY,https://www.biznesradar.pl/notowania/SYGNITY
-SHD,SOHODEV,https://www.biznesradar.pl/notowania/SOHO-DEVELOPMENT
-SHO,SHOPER,https://www.biznesradar.pl/notowania/SHO
-SIM,SIMFABRIC,https://www.biznesradar.pl/notowania/SIM
-SKA,SNIEZKA,https://www.biznesradar.pl/notowania/SNIEZKA
-SKH,SKARBIEC,https://www.biznesradar.pl/notowania/SKARBIEC-HOLDING
-SKL,SKYLINE,https://www.biznesradar.pl/notowania/SKYLINE-INVESTMENT
-SLV,SELVITA,https://www.biznesradar.pl/notowania/SLV
-SNK,SANOK,https://www.biznesradar.pl/notowania/SNK
-SNT,SYNEKTIK,https://www.biznesradar.pl/notowania/SYNEKTIK
-SNW,SANWIL,https://www.biznesradar.pl/notowania/SANWIL-HOLDING
-SNX,SUNEX,https://www.biznesradar.pl/notowania/SUNEX
-SON,SONEL,https://www.biznesradar.pl/notowania/SONEL
-SPH,SOPHARMA,https://www.biznesradar.pl/notowania/SOPHARMA
-SPL,SANPL,https://www.biznesradar.pl/notowania/SPL
-SPR,SPYROSOFT,https://www.biznesradar.pl/notowania/SPR
-STF,STALPROFI,https://www.biznesradar.pl/notowania/STALPROFIL
-STP,STALPROD,https://www.biznesradar.pl/notowania/STALPRODUKT
-STX,STALEXP,https://www.biznesradar.pl/notowania/STALEXPORT-AUTOSTRADY
-SVE,SNTVERSE,https://www.biznesradar.pl/notowania/SVE
-SVRS,SILVAIR-REGS,https://www.biznesradar.pl/notowania/SVRS
-SWG,SECOGROUP,https://www.biznesradar.pl/notowania/SECO-WARWICK
-TAR,TARCZYNSKI,https://www.biznesradar.pl/notowania/TARCZYNSKI
-TBL,TBULL,https://www.biznesradar.pl/notowania/TBL
-TEN,TSGAMES,https://www.biznesradar.pl/notowania/TEN
-TLX,TALEX,https://www.biznesradar.pl/notowania/TALEX
-TOA,TOYA,https://www.biznesradar.pl/notowania/TOYA
-TOR,TORPOL,https://www.biznesradar.pl/notowania/TORPOL
-TPE,TAURONPE,https://www.biznesradar.pl/notowania/TAURON
-TRK,TRAKCJA,https://www.biznesradar.pl/notowania/TRAKCJA
-TRN,TRANSPOL,https://www.biznesradar.pl/notowania/TRANS-POLONIA
-TRR,TERMOREX,https://www.biznesradar.pl/notowania/TERMO-REX
-TSG,TESGAS,https://www.biznesradar.pl/notowania/TESGAS
-TXT,TEXT,https://www.biznesradar.pl/notowania/TXT
-UCG,UNICREDIT,https://www.biznesradar.pl/notowania/UNICREDIT
-ULG,ULTGAMES,https://www.biznesradar.pl/notowania/ULG
-ULM,ULMA,https://www.biznesradar.pl/notowania/ULMA-CONSTRUCCION
-UNF,UNFOLD,https://www.biznesradar.pl/notowania/UNF
-UNI,UNIBEP,https://www.biznesradar.pl/notowania/UNIBEP
-UNT,UNIMOT,https://www.biznesradar.pl/notowania/UNIMOT-GAZ
-URT,URTESTE,https://www.biznesradar.pl/notowania/URT
-VGO,VIGOPHOTN,https://www.biznesradar.pl/notowania/VGO
-VIN,VINDEXUS,https://www.biznesradar.pl/notowania/VINDEXUS
-VOT,VOTUM,https://www.biznesradar.pl/notowania/VOTUM
-VOX,VOXEL,https://www.biznesradar.pl/notowania/VOXEL
-VRC,VERCOM,https://www.biznesradar.pl/notowania/VRC
-VRG,VRG,https://www.biznesradar.pl/notowania/VRG
-VVD,VIVID,https://www.biznesradar.pl/notowania/VIVID-GAMES
-WAS,WASKO,https://www.biznesradar.pl/notowania/WASKO
-WIK,WIKANA,https://www.biznesradar.pl/notowania/WIKANA
-WIS,WINVEST,https://www.biznesradar.pl/notowania/WIS
-WLT,WIELTON,https://www.biznesradar.pl/notowania/WIELTON
-WPL,WIRTUALNA,https://www.biznesradar.pl/notowania/WIRTUALNA-POLSKA
-WPR,WOODPCKR,https://www.biznesradar.pl/notowania/WPR
-WTN,WITTCHEN,https://www.biznesradar.pl/notowania/WTN
-WWL,WAWEL,https://www.biznesradar.pl/notowania/WAWEL
-WXF,WARIMPEX,https://www.biznesradar.pl/notowania/WARIMPEX
-XPL,XPLUS,https://www.biznesradar.pl/notowania/XPLUS
-XTB,XTB,https://www.biznesradar.pl/notowania/XTB
-XTP,XTPL,https://www.biznesradar.pl/notowania/XTP
-YAN,NEPTIS,https://www.biznesradar.pl/notowania/NEPTIS
-YRL,YARRL,https://www.biznesradar.pl/notowania/YARRL
-ZAB,ZABKA,https://www.biznesradar.pl/notowania/ZAB
-ZAP,PULAWY,https://www.biznesradar.pl/notowania/ZAKLADY-AZOTOWE-PULAWY
-ZEP,ZEPAK,https://www.biznesradar.pl/notowania/ZEPAK
-ZMT,ZAMET,https://www.biznesradar.pl/notowania/ZAMET-INDUSTRY
-ZRE,ZREMB,https://www.biznesradar.pl/notowania/ZREMB-CHOJNICE
-ZUE,ZUE,https://www.biznesradar.pl/notowania/ZUE
-ZUK,STAPORKOW,https://www.biznesradar.pl/notowania/STAPORKOW
+ticker,name,adress,industry
+06N,06MAGNA,https://www.biznesradar.pl/notowania/06N,Działalność inwestycyjna
+08N,08OCTAVA,https://www.biznesradar.pl/notowania/OCTAVA,Nieruchomości
+11B,11BIT,https://www.biznesradar.pl/notowania/11-BIT-STUDIOS,Gry
+1AT,ATAL,https://www.biznesradar.pl/notowania/ATAL,Nieruchomości
+3RG,3RGAMES,https://www.biznesradar.pl/notowania/3RG,Gry
+4MS,4MASS,https://www.biznesradar.pl/notowania/4MS,Odzież i kosmetyki
+AAT,ALTA,https://www.biznesradar.pl/notowania/AAT,Nieruchomości
+ABE,ABPL,https://www.biznesradar.pl/notowania/ABE,Handel hurtowy
+ABS,ASSECOBS,https://www.biznesradar.pl/notowania/ASSECO-BUSINESS-SOLUTIONS,Informatyka
+ACG,ACAUTOGAZ,https://www.biznesradar.pl/notowania/ACG,Motoryzacja
+ACP,ASSECOPOL,https://www.biznesradar.pl/notowania/ASSECO-POLAND,Informatyka
+ACT,ACTION,https://www.biznesradar.pl/notowania/ACTION,Handel hurtowy
+ADV,ADIUVO,https://www.biznesradar.pl/notowania/ADIUVO-INVESTMENT,Sprzęt i materiały medyczne
+AGO,AGORA,https://www.biznesradar.pl/notowania/AGORA,Media
+AGT,AGROTON,https://www.biznesradar.pl/notowania/AGROTON,Artykuły spożywcze
+ALE,ALLEGRO,https://www.biznesradar.pl/notowania/ALE,Handel internetowy
+ALG,AIGAMES,https://www.biznesradar.pl/notowania/ALG,Gry
+ALI,ALTUS,https://www.biznesradar.pl/notowania/ALTUS,Rynek kapitałowy
+ALL,AILLERON,https://www.biznesradar.pl/notowania/ALL,Informatyka
+ALR,ALIOR,https://www.biznesradar.pl/notowania/ALIOR-BANK,Banki
+AMB,AMBRA,https://www.biznesradar.pl/notowania/AMBRA,Artykuły spożywcze
+AMC,AMICA,https://www.biznesradar.pl/notowania/AMICA,Wyposażenie domu
+ANR,ANSWEAR,https://www.biznesradar.pl/notowania/ANR,Handel internetowy
+APE,APSENERGY,https://www.biznesradar.pl/notowania/APS-ENERGIA,Przemysł elektromaszynowy
+APN,APLISENS,https://www.biznesradar.pl/notowania/APLISENS,Przemysł elektromaszynowy
+APR,AUTOPARTN,https://www.biznesradar.pl/notowania/APR,Motoryzacja
+APT,APATOR,https://www.biznesradar.pl/notowania/APATOR,Przemysł elektromaszynowy
+ARH,ARCHICOM,https://www.biznesradar.pl/notowania/ARH,Nieruchomości
+ARL,ARLEN,https://www.biznesradar.pl/notowania/ARL,Odzież i kosmetyki
+ART,ARTIFEX,https://www.biznesradar.pl/notowania/ARTIFEX,Gry
+ASB,ASBIS,https://www.biznesradar.pl/notowania/ASBISC,Handel hurtowy
+ASE,ASSECOSEE,https://www.biznesradar.pl/notowania/ASSECO-SOUTH-EASTERN-EUROPE,Informatyka
+AST,ASTARTA,https://www.biznesradar.pl/notowania/ASTARTA,Artykuły spożywcze
+ATC,ARCTIC,https://www.biznesradar.pl/notowania/ARCTIC-PAPER,Drewno i papier
+ATD,ATENDE,https://www.biznesradar.pl/notowania/ATENDE,Informatyka
+ATG,ATMGRUPA,https://www.biznesradar.pl/notowania/ATM-GRUPA,Media
+ATP,ATLANTAPL,https://www.biznesradar.pl/notowania/ATLANTA-POLAND,Artykuły spożywcze
+ATR,ATREM,https://www.biznesradar.pl/notowania/ATREM,Budownictwo
+ATS,ATLANTIS,https://www.biznesradar.pl/notowania/ATS,Działalność inwestycyjna
+ATT,GRUPAAZOTY,https://www.biznesradar.pl/notowania/ATT,Chemia
+AWM,AIRWAY,https://www.biznesradar.pl/notowania/AIRWAY-MEDIX,Sprzęt i materiały medyczne
+B24,BRAND24,https://www.biznesradar.pl/notowania/B24,Informatyka
+BBD,BBIDEV,https://www.biznesradar.pl/notowania/BBI-DEVELOPMENT,Nieruchomości
+BBT,BOOMBIT,https://www.biznesradar.pl/notowania/BBT,Gry
+BCM,BETACOM,https://www.biznesradar.pl/notowania/BETACOM,Informatyka
+BCS,BIGCHEESE,https://www.biznesradar.pl/notowania/BCS,Gry
+BCX,BIOCELTIX,https://www.biznesradar.pl/notowania/BCX,Biotechnologia
+BDX,BUDIMEX,https://www.biznesradar.pl/notowania/BUDIMEX,Budownictwo
+BFT,BENEFIT,https://www.biznesradar.pl/notowania/BENEFIT-SYSTEMS,Rekreacja i wypoczynek
+BHW,HANDLOWY,https://www.biznesradar.pl/notowania/BANK-HANDLOWY,Banki
+BIO,BIOTON,https://www.biznesradar.pl/notowania/BIOTON,Produkcja leków
+BIP,BIOPLANET,https://www.biznesradar.pl/notowania/BIO-PLANET,Sieci handlowe
+BLO,BLOOBER,https://www.biznesradar.pl/notowania/BLOOBER-TEAM,Gry
+BMC,BUMECH,https://www.biznesradar.pl/notowania/BUMECH,Przemysł elektromaszynowy
+BMX,BIOMAXIMA,https://www.biznesradar.pl/notowania/BIOMAXIMA,Biotechnologia
+BNP,BNPPPL,https://www.biznesradar.pl/notowania/BNP,Banki
+BOS,BOS,https://www.biznesradar.pl/notowania/BANK-OCHRONY-SRODOWISKA,Banki
+BOW,BOWIM,https://www.biznesradar.pl/notowania/BOWIM,Zaopatrzenie przedsiębiorstw
+BRS,BORYSZEW,https://www.biznesradar.pl/notowania/BORYSZEW,Hutnictwo
+BST,BEST,https://www.biznesradar.pl/notowania/BEST,Wierzytelności
+CAP,CAPITEA,https://www.biznesradar.pl/notowania/CAP,Wierzytelności
+CAR,INTERCARS,https://www.biznesradar.pl/notowania/INTER-CARS,Motoryzacja
+CAV,CAVATINA,https://www.biznesradar.pl/notowania/CAV,Nieruchomości
+CBF,CYBERFLKS,https://www.biznesradar.pl/notowania/CBF,Nowe technologie
+CCC,CCC,https://www.biznesradar.pl/notowania/CCC,Odzież i kosmetyki
+CDL,CDRL,https://www.biznesradar.pl/notowania/CDL,Odzież i kosmetyki
+CDR,CDPROJEKT,https://www.biznesradar.pl/notowania/CD-PROJEKT,Gry
+CEZ,CEZ,https://www.biznesradar.pl/notowania/CEZ,Energia
+CIG,CIGAMES,https://www.biznesradar.pl/notowania/CI-GAMES,Gry
+CLC,COLUMBUS,https://www.biznesradar.pl/notowania/COLUMBUS-CAPITAL,Energia
+CLD,CLOUD,https://www.biznesradar.pl/notowania/CLOUD-TECHNOLOGIES,Nowe technologie
+CLE,COALENERG,https://www.biznesradar.pl/notowania/COAL-ENERGY,Górnictwo
+CLN,CLNPHARMA,https://www.biznesradar.pl/notowania/CLNPHARMA,Produkcja leków
+CMP,COMP,https://www.biznesradar.pl/notowania/COMP,Informatyka
+COG,COGNOR,https://www.biznesradar.pl/notowania/COGNOR,Hutnictwo
+CPA,CAPITAL,https://www.biznesradar.pl/notowania/CAPITAL-PARTNERS,Działalność inwestycyjna
+CPD,CELTIC,https://www.biznesradar.pl/notowania/CPD,Nieruchomości
+CPL,COMPERIA,https://www.biznesradar.pl/notowania/COMPERIA-PL,Media
+CPR,COMPREMUM,https://www.biznesradar.pl/notowania/CPR,Budownictwo
+CPS,CYFRPLSAT,https://www.biznesradar.pl/notowania/CYFROWY-POLSAT,Telekomunikacja
+CRI,CREOTECH,https://www.biznesradar.pl/notowania/CRI,Nowe technologie
+CRJ,CREEPYJAR,https://www.biznesradar.pl/notowania/CRJ,Gry
+CRM,CORMAY,https://www.biznesradar.pl/notowania/CORMAY,Produkcja leków
+CSR,CASPAR,https://www.biznesradar.pl/notowania/CASPAR-ASSET-MANAGEMENT,Rynek kapitałowy
+CTS,CITYSERV,https://www.biznesradar.pl/notowania/CTS,Usługi dla przedsiębiorstw
+CTX,CAPTORTX,https://www.biznesradar.pl/notowania/CTX,Biotechnologia
+CZT,CZTOREBKA,https://www.biznesradar.pl/notowania/CZERWONA-TOREBKA,Nieruchomości
+DAD,DADELO,https://www.biznesradar.pl/notowania/DAD,Handel internetowy
+DAT,DATAWALK,https://www.biznesradar.pl/notowania/DAT,Informatyka
+DBC,DEBICA,https://www.biznesradar.pl/notowania/DEBICA,Motoryzacja
+DBE,DBENERGY,https://www.biznesradar.pl/notowania/DBE,Budownictwo
+DCR,DECORA,https://www.biznesradar.pl/notowania/DECORA,Budownictwo
+DEK,DEKPOL,https://www.biznesradar.pl/notowania/DEKPOL,Budownictwo
+DEL,DELKO,https://www.biznesradar.pl/notowania/DELKO,Handel hurtowy
+DGA,DGA,https://www.biznesradar.pl/notowania/DGA,Usługi dla przedsiębiorstw
+DGE,DRAGOENT,https://www.biznesradar.pl/notowania/DGE,Gry
+DIA,DIAG,https://www.biznesradar.pl/notowania/DIA,Pozostałe
+DIG,DIGITANET,https://www.biznesradar.pl/notowania/DIG,Media
+DMG,DMGROUP,https://www.biznesradar.pl/notowania/DMG,Odzież i kosmetyki
+DNP,DINOPL,https://www.biznesradar.pl/notowania/DNP,Sieci handlowe
+DOM,DOMDEV,https://www.biznesradar.pl/notowania/DOM-DEVELOPMENT,Nieruchomości
+DTR,DIGITREE,https://www.biznesradar.pl/notowania/DTR,Informatyka
+DVL,DEVELIA,https://www.biznesradar.pl/notowania/DVL,Nieruchomości
+EAH,ESOTIQ,https://www.biznesradar.pl/notowania/ESOTIQ-HENDERSON,Odzież i kosmetyki
+EAT,AMREST,https://www.biznesradar.pl/notowania/EAT,Rekreacja i wypoczynek
+ECB,ECBSA,https://www.biznesradar.pl/notowania/ELEKTROCIEPLOWNIA-BEDZIN,Energia
+ECH,ECHO,https://www.biznesradar.pl/notowania/ECHO-INVESTMENT,Nieruchomości
+EDI,EDINVEST,https://www.biznesradar.pl/notowania/ED-INVEST,Nieruchomości
+EKP,ELKOP,https://www.biznesradar.pl/notowania/EKP,Nieruchomości
+ELT,ELEKTROTI,https://www.biznesradar.pl/notowania/ELEKTROTIM,Budownictwo
+ENA,ENEA,https://www.biznesradar.pl/notowania/ENA,Energia
+ENE,ENELMED,https://www.biznesradar.pl/notowania/ENEL-MED,Szpitale i przychodnie
+ENG,ENERGA,https://www.biznesradar.pl/notowania/ENERGA,Energia
+ENI,ENERGOINS,https://www.biznesradar.pl/notowania/ENERGOINSTAL,Budownictwo
+ENT,ENTER,https://www.biznesradar.pl/notowania/ENT,Transport i logistyka
+EQU,EQUNICO,https://www.biznesradar.pl/notowania/EQU,Budownictwo
+ERB,ERBUD,https://www.biznesradar.pl/notowania/ERBUD,Budownictwo
+ETL,EUROTEL,https://www.biznesradar.pl/notowania/EUROTEL,Sieci handlowe
+EUC,EUCO,https://www.biznesradar.pl/notowania/EUROPEJSKIE-CENTRUM-ODSZKODOWAN,Ubezpieczenia
+EUR,EUROCASH,https://www.biznesradar.pl/notowania/EUROCASH,Sieci handlowe
+FAB,FABRITY,https://www.biznesradar.pl/notowania/FAB,Informatyka
+FEE,FEERUM,https://www.biznesradar.pl/notowania/FEERUM,Przemysł elektromaszynowy
+FMG,FMG,https://www.biznesradar.pl/notowania/FMG,Działalność inwestycyjna
+FRO,FERRO,https://www.biznesradar.pl/notowania/FERRO,Budownictwo
+FSG,FASING,https://www.biznesradar.pl/notowania/FASING,Przemysł elektromaszynowy
+FTE,FORTE,https://www.biznesradar.pl/notowania/FORTE,Wyposażenie domu
+GEA,GRENEVIA,https://www.biznesradar.pl/notowania/GRENEVIA,Przemysł elektromaszynowy
+GIF,GAMFACTOR,https://www.biznesradar.pl/notowania/GIF,Gry
+GIG,GIGROUP,https://www.biznesradar.pl/notowania/GIG,Usługi dla przedsiębiorstw
+GKI,IMMOBILE,https://www.biznesradar.pl/notowania/GKI,Działalność inwestycyjna
+GMT,GENOMTEC,https://www.biznesradar.pl/notowania/GMT,Biotechnologia
+GOB,GOBARTO,https://www.biznesradar.pl/notowania/GOBARTO,Artykuły spożywcze
+GOP,GAMEOPS,https://www.biznesradar.pl/notowania/GOP,Gry
+GPP,GRUPRACUJ,https://www.biznesradar.pl/notowania/GPP,Media
+GPW,GPW,https://www.biznesradar.pl/notowania/GPW,Rynek kapitałowy
+GRN,GRODNO,https://www.biznesradar.pl/notowania/GRODNO,Zaopatrzenie przedsiębiorstw
+GRX,GREENX,https://www.biznesradar.pl/notowania/GRX,Górnictwo
+GTC,GTC,https://www.biznesradar.pl/notowania/GTC,Nieruchomości
+GTN,GETIN,https://www.biznesradar.pl/notowania/GETIN-HOLDING,Banki
+HDR,HYDROTOR,https://www.biznesradar.pl/notowania/HYDROTOR,Przemysł elektromaszynowy
+HEL,HELIO,https://www.biznesradar.pl/notowania/HELIO,Artykuły spożywcze
+HRP,HARPER,https://www.biznesradar.pl/notowania/HARPER-HYGIENICS,Odzież i kosmetyki
+HRS,HERKULES,https://www.biznesradar.pl/notowania/HERKULES,Budownictwo
+HUG,HUUUGE,https://www.biznesradar.pl/notowania/HUG,Gry
+IBS,IBSM,https://www.biznesradar.pl/notowania/IBSM,Nieruchomości
+ICE,MEDINICE,https://www.biznesradar.pl/notowania/ICE,Pozostałe
+IFI,IFIRMA,https://www.biznesradar.pl/notowania/IFI,Informatyka
+IMC,IMCOMPANY,https://www.biznesradar.pl/notowania/INDUSTRIAL-MILK-COMPANY,Artykuły spożywcze
+IMP,IMPERIO,https://www.biznesradar.pl/notowania/IMP,Działalność inwestycyjna
+IMS,IMS,https://www.biznesradar.pl/notowania/IMS,Media
+INC,INC,https://www.biznesradar.pl/notowania/INC,Działalność inwestycyjna
+ING,INGBSK,https://www.biznesradar.pl/notowania/ING-BANK-SLASKI,Banki
+INK,INSTALKRK,https://www.biznesradar.pl/notowania/INSTAL-KRAKOW,Budownictwo
+INL,INTROL,https://www.biznesradar.pl/notowania/INTROL,Przemysł elektromaszynowy
+INP,INPRO,https://www.biznesradar.pl/notowania/INPRO,Nieruchomości
+IPE,IPOPEMA,https://www.biznesradar.pl/notowania/IPOPEMA,Rynek kapitałowy
+IPO,INTERSPPL,https://www.biznesradar.pl/notowania/INTERSPPL,Odzież i kosmetyki
+ITB,INTERBUD,https://www.biznesradar.pl/notowania/INTERBUD-LUBLIN,Nieruchomości
+IZB,IZOBLOK,https://www.biznesradar.pl/notowania/IZOBLOK,Guma i tworzywa sztuczne
+IZO,IZOLACJA,https://www.biznesradar.pl/notowania/IZOLACJA-JAROCIN,Budownictwo
+IZS,IZOSTAL,https://www.biznesradar.pl/notowania/IZOSTAL,Przemysł elektromaszynowy
+JRH,JRH,https://www.biznesradar.pl/notowania/JRH,Działalność inwestycyjna
+JSW,JSW,https://www.biznesradar.pl/notowania/JSW-JASTRZEBSKA-SPOLKA-WEGLOWA,Górnictwo
+JWW,JWWINVEST,https://www.biznesradar.pl/notowania/JWW-INVEST,Przemysł elektromaszynowy
+KCH,KRAKCHEM,https://www.biznesradar.pl/notowania/KRAKCHEMIA,Zaopatrzenie przedsiębiorstw
+KCI,KCI,https://www.biznesradar.pl/notowania/KCI,Media
+KER,KERNEL,https://www.biznesradar.pl/notowania/KERNEL,Artykuły spożywcze
+KGH,KGHM,https://www.biznesradar.pl/notowania/KGHM,Górnictwo
+KGL,KGL,https://www.biznesradar.pl/notowania/KGL,Zaopatrzenie przedsiębiorstw
+KGN,KOGENERA,https://www.biznesradar.pl/notowania/KOGENERACJA,Energia
+KOM,KOMPUTRON,https://www.biznesradar.pl/notowania/KOMPUTRONIK,Sieci handlowe
+KPD,KPPD,https://www.biznesradar.pl/notowania/KPD,Drewno i papier
+KPL,KINOPOL,https://www.biznesradar.pl/notowania/KINO-POLSKA-TV,Media
+KRK,KRKA,https://www.biznesradar.pl/notowania/KRKA,Produkcja leków
+KRU,KRUK,https://www.biznesradar.pl/notowania/KRUK,Wierzytelności
+KSG,KSGAGRO,https://www.biznesradar.pl/notowania/KSG-AGRO,Artykuły spożywcze
+KTY,KETY,https://www.biznesradar.pl/notowania/KETY,Hutnictwo
+KVT,KRVITAMIN,https://www.biznesradar.pl/notowania/KVT,Artykuły spożywcze
+LBT,LIBET,https://www.biznesradar.pl/notowania/LIBET,Budownictwo
+LBW,LUBAWA,https://www.biznesradar.pl/notowania/LUBAWA,Odzież i kosmetyki
+LEN,LENA,https://www.biznesradar.pl/notowania/LENA-LIGHTING,Przemysł elektromaszynowy
+LES,LESS,https://www.biznesradar.pl/notowania/LES,Handel internetowy
+LKD,LOKUM,https://www.biznesradar.pl/notowania/LKD,Nieruchomości
+LPP,LPP,https://www.biznesradar.pl/notowania/LPP,Odzież i kosmetyki
+LRQ,LARQ,https://www.biznesradar.pl/notowania/LRQ,Media
+LSI,LSISOFT,https://www.biznesradar.pl/notowania/LSI-SOFTWARE,Informatyka
+LTX,LENTEX,https://www.biznesradar.pl/notowania/LENTEX,Zaopatrzenie przedsiębiorstw
+LWB,BOGDANKA,https://www.biznesradar.pl/notowania/BOGDANKA,Górnictwo
+MAB,MABION,https://www.biznesradar.pl/notowania/MABION,Produkcja leków
+MAK,MAKARONPL,https://www.biznesradar.pl/notowania/MAKARONY-POLSKIE,Artykuły spożywcze
+MBK,MBANK,https://www.biznesradar.pl/notowania/MBANK,Banki
+MBR,MOBRUK,https://www.biznesradar.pl/notowania/MBR,Recykling
+MCI,MCI,https://www.biznesradar.pl/notowania/MCI,Działalność inwestycyjna
+MCR,MERCOR,https://www.biznesradar.pl/notowania/MERCOR,Budownictwo
+MDG,MEDICALG,https://www.biznesradar.pl/notowania/MDG,Sprzęt i materiały medyczne
+MDI,MDIENERGIA,https://www.biznesradar.pl/notowania/MDI,Budownictwo
+MEG,MEGARON,https://www.biznesradar.pl/notowania/MEGARON,Budownictwo
+MEX,MEXPOLSKA,https://www.biznesradar.pl/notowania/MEX-POLSKA,Rekreacja i wypoczynek
+MFO,MFO,https://www.biznesradar.pl/notowania/MFO,Budownictwo
+MGT,MANGATA,https://www.biznesradar.pl/notowania/MGT,Przemysł elektromaszynowy
+MIL,MILLENNIUM,https://www.biznesradar.pl/notowania/BANK-MILLENNIUM,Banki
+MIR,MIRACULUM,https://www.biznesradar.pl/notowania/MIRACULUM,Odzież i kosmetyki
+MLG,MLPGROUP,https://www.biznesradar.pl/notowania/MLP-GROUP,Nieruchomości
+MLK,MILKILAND,https://www.biznesradar.pl/notowania/MLK,Artykuły spożywcze
+MLS,MLSYSTEM,https://www.biznesradar.pl/notowania/MLS,Energia
+MNC,MENNICA,https://www.biznesradar.pl/notowania/MENNICA-POLSKA,Hutnictwo
+MOC,MOLECURE,https://www.biznesradar.pl/notowania/MOC,Biotechnologia
+MOL,MOL,https://www.biznesradar.pl/notowania/MOL-MAGYAR-OLAJ,Paliwa i gaz
+MON,MONNARI,https://www.biznesradar.pl/notowania/MONNARI-TRADE,Odzież i kosmetyki
+MOV,MOVIEGAMES,https://www.biznesradar.pl/notowania/MOV,Gry
+MRB,MIRBUD,https://www.biznesradar.pl/notowania/MIRBUD,Budownictwo
+MRC,MERCATOR,https://www.biznesradar.pl/notowania/MERCATOR,Sprzęt i materiały medyczne
+MSP,MOSTALPLC,https://www.biznesradar.pl/notowania/MOSTOSTAL-PLOCK,Budownictwo
+MSW,MOSTALWAR,https://www.biznesradar.pl/notowania/MOSTOSTAL-WARSZAWA,Budownictwo
+MSZ,MOSTALZAB,https://www.biznesradar.pl/notowania/MOSTOSTAL-ZABRZE,Budownictwo
+MUR,MURAPOL,https://www.biznesradar.pl/notowania/MUR,Nieruchomości
+MVP,MARVIPOL,https://www.biznesradar.pl/notowania/MVP,Nieruchomości
+MWT,MWTRADE,https://www.biznesradar.pl/notowania/MW-TRADE,Leasing i faktoring
+MXC,MAXCOM,https://www.biznesradar.pl/notowania/MXC,Wyposażenie domu
+NCL,NOCTILUCA,https://www.biznesradar.pl/notowania/NCL,Nowe technologie
+NEU,NEUCA,https://www.biznesradar.pl/notowania/NEUCA,Dystrybucja leków
+NNG,NANOGROUP,https://www.biznesradar.pl/notowania/NNG,Biotechnologia
+NTC,NTCAPITAL,https://www.biznesradar.pl/notowania/NTC,Działalność inwestycyjna
+NTT,NTTSYSTEM,https://www.biznesradar.pl/notowania/NTT,Informatyka
+NVA,PANOVA,https://www.biznesradar.pl/notowania/PANOVA,Budownictwo
+NVG,NOVAVISGR,https://www.biznesradar.pl/notowania/NVG,Energia
+NVT,NOVITA,https://www.biznesradar.pl/notowania/NOVITA,Zaopatrzenie przedsiębiorstw
+NWG,NEWAG,https://www.biznesradar.pl/notowania/NEWAG,Przemysł elektromaszynowy
+ODL,ODLEWNIE,https://www.biznesradar.pl/notowania/ODLEWNIE-POLSKIE,Hutnictwo
+OND,ONDE,https://www.biznesradar.pl/notowania/OND,Energia
+ONO,ONESANO,https://www.biznesradar.pl/notowania/ONO,Biotechnologia
+OPG,ORCOGROUP,https://www.biznesradar.pl/notowania/OPG,Nieruchomości
+OPL,ORANGEPL,https://www.biznesradar.pl/notowania/ORANGE,Telekomunikacja
+OPN,OPONEO.PL,https://www.biznesradar.pl/notowania/OPONEO-PL,Handel internetowy
+OTM,OTMUCHOW,https://www.biznesradar.pl/notowania/OTMUCHOW,Artykuły spożywcze
+OTS,OTLOG,https://www.biznesradar.pl/notowania/OT-LOGISTICS,Transport i logistyka
+PAS,PASSUS,https://www.biznesradar.pl/notowania/PAS,Informatyka
+PAT,PATENTUS,https://www.biznesradar.pl/notowania/PATENTUS,Przemysł elektromaszynowy
+PBX,PEKABEX,https://www.biznesradar.pl/notowania/PEKABEX,Budownictwo
+PCE,POLICE,https://www.biznesradar.pl/notowania/POLICE,Chemia
+PCF,PCFGROUP,https://www.biznesradar.pl/notowania/PCF,Gry
+PCO,PEPCO,https://www.biznesradar.pl/notowania/PCO,Sieci handlowe
+PCR,PCCROKITA,https://www.biznesradar.pl/notowania/ROKITA,Chemia
+PCX,PCCEXOL,https://www.biznesradar.pl/notowania/PCC-EXOL,Chemia
+PEN,PHOTON,https://www.biznesradar.pl/notowania/PHOTON,Energia
+PEO,PEKAO,https://www.biznesradar.pl/notowania/PEKAO,Banki
+PEP,PEP,https://www.biznesradar.pl/notowania/POLENERGIA,Energia
+PGE,PGE,https://www.biznesradar.pl/notowania/PGE,Energia
+PGM,PMPG,https://www.biznesradar.pl/notowania/PGM,Media
+PHN,PHN,https://www.biznesradar.pl/notowania/POLSKI-HOLDING-NIERUCHOMOSCI,Nieruchomości
+PHR,PHARMENA,https://www.biznesradar.pl/notowania/PHARMENA,Produkcja leków
+PJP,PJPMAKRUM,https://www.biznesradar.pl/notowania/PROJPRZEM,Budownictwo
+PKN,PKNORLEN,https://www.biznesradar.pl/notowania/ORLEN,Paliwa i gaz
+PKO,PKOBP,https://www.biznesradar.pl/notowania/PKO,Banki
+PKP,PKPCARGO,https://www.biznesradar.pl/notowania/PKPCARGO,Transport i logistyka
+PLW,PLAYWAY,https://www.biznesradar.pl/notowania/PLAYWAY,Gry
+PLZ,PLAZACNTR,https://www.biznesradar.pl/notowania/PLAZACNTR,Nieruchomości
+PMP,PAMAPOL,https://www.biznesradar.pl/notowania/PAMAPOL,Artykuły spożywcze
+PPS,PEPEES,https://www.biznesradar.pl/notowania/PEPEES,Artykuły spożywcze
+PRI,PRAGMAINK,https://www.biznesradar.pl/notowania/PRI,Wierzytelności
+PRM,PROCHEM,https://www.biznesradar.pl/notowania/PROCHEM,Budownictwo
+PTG,POLTREG,https://www.biznesradar.pl/notowania/PTG,Biotechnologia
+PTW,PTWP,https://www.biznesradar.pl/notowania/PTWP,Media
+PUR,PURE,https://www.biznesradar.pl/notowania/PUR,Biotechnologia
+PWX,POLWAX,https://www.biznesradar.pl/notowania/POLWAX,Chemia
+PXM,POLIMEXMS,https://www.biznesradar.pl/notowania/POLIMEX,Budownictwo
+PZU,PZU,https://www.biznesradar.pl/notowania/PZU,Ubezpieczenia
+QNA,QNATECHNO,https://www.biznesradar.pl/notowania/QNA,Nowe technologie
+QNT,QUANTUM,https://www.biznesradar.pl/notowania/QUANTUM-SOFTWARE,Informatyka
+QRS,QUERCUS,https://www.biznesradar.pl/notowania/QUERCUS,Rynek kapitałowy
+RAE,RAEN,https://www.biznesradar.pl/notowania/RAE,Energia
+RAF,RAFAMET,https://www.biznesradar.pl/notowania/RAFAMET,Przemysł elektromaszynowy
+RBW,RAINBOW,https://www.biznesradar.pl/notowania/RAINBOW-TOURS,Rekreacja i wypoczynek
+RFK,RAFAKO,https://www.biznesradar.pl/notowania/RAFAKO,Budownictwo
+RLP,RELPOL,https://www.biznesradar.pl/notowania/RELPOL,Przemysł elektromaszynowy
+RMK,REMAK,https://www.biznesradar.pl/notowania/REMAK,Budownictwo
+RNC,REINO,https://www.biznesradar.pl/notowania/RNC,Działalność inwestycyjna
+RND,RENDER,https://www.biznesradar.pl/notowania/RND,Gry
+RNK,RANKPROGR,https://www.biznesradar.pl/notowania/RANK-PROGRESS,Nieruchomości
+RPC,ROPCZYCE,https://www.biznesradar.pl/notowania/ROPCZYCE,Budownictwo
+RVU,RYVU,https://www.biznesradar.pl/notowania/RVU,Biotechnologia
+RWL,RAWLPLUG,https://www.biznesradar.pl/notowania/RAWLPLUG,Przemysł elektromaszynowy
+SAN,SANTANDER,https://www.biznesradar.pl/notowania/SANTANDER,Banki
+SCP,SCPFL,https://www.biznesradar.pl/notowania/SCP,Biotechnologia
+SEK,SEKO,https://www.biznesradar.pl/notowania/SEKO,Artykuły spożywcze
+SEL,SELENAFM,https://www.biznesradar.pl/notowania/SELENA-FM,Budownictwo
+SFS,SFINKS,https://www.biznesradar.pl/notowania/SFINKS,Rekreacja i wypoczynek
+SGN,SYGNITY,https://www.biznesradar.pl/notowania/SYGNITY,Informatyka
+SHO,SHOPER,https://www.biznesradar.pl/notowania/SHO,Informatyka
+SIM,SIMFABRIC,https://www.biznesradar.pl/notowania/SIM,Gry
+SKA,SNIEZKA,https://www.biznesradar.pl/notowania/SNIEZKA,Budownictwo
+SKH,SKARBIEC,https://www.biznesradar.pl/notowania/SKARBIEC-HOLDING,Rynek kapitałowy
+SKL,SKYLINE,https://www.biznesradar.pl/notowania/SKYLINE-INVESTMENT,Działalność inwestycyjna
+SLV,SELVITA,https://www.biznesradar.pl/notowania/SLV,Biotechnologia
+SNK,SANOK,https://www.biznesradar.pl/notowania/SNK,Motoryzacja
+SNT,SYNEKTIK,https://www.biznesradar.pl/notowania/SYNEKTIK,Biotechnologia
+SNW,SANWIL,https://www.biznesradar.pl/notowania/SANWIL-HOLDING,Odzież i kosmetyki
+SNX,SUNEX,https://www.biznesradar.pl/notowania/SUNEX,Przemysł elektromaszynowy
+SON,SONEL,https://www.biznesradar.pl/notowania/SONEL,Przemysł elektromaszynowy
+SPL,SANPL,https://www.biznesradar.pl/notowania/SPL,Banki
+SPR,SPYROSOFT,https://www.biznesradar.pl/notowania/SPR,Informatyka
+STF,STALPROFI,https://www.biznesradar.pl/notowania/STALPROFIL,Zaopatrzenie przedsiębiorstw
+STP,STALPROD,https://www.biznesradar.pl/notowania/STALPRODUKT,Hutnictwo
+STS,SATIS,https://www.biznesradar.pl/notowania/STS,Informatyka
+STX,STALEXP,https://www.biznesradar.pl/notowania/STALEXPORT-AUTOSTRADY,Transport i logistyka
+SVE,SNTVERSE,https://www.biznesradar.pl/notowania/SVE,Produkcja leków
+SVRS,SILVAIR-REGS,https://www.biznesradar.pl/notowania/SVRS,Informatyka
+SWG,SECOGROUP,https://www.biznesradar.pl/notowania/SECO-WARWICK,Przemysł elektromaszynowy
+TAR,TARCZYNSKI,https://www.biznesradar.pl/notowania/TARCZYNSKI,Artykuły spożywcze
+TEN,TSGAMES,https://www.biznesradar.pl/notowania/TEN,Gry
+THG,TENDERHUT,https://www.biznesradar.pl/notowania/THG,Nowe technologie
+TLX,TALEX,https://www.biznesradar.pl/notowania/TALEX,Informatyka
+TOA,TOYA,https://www.biznesradar.pl/notowania/TOYA,Handel hurtowy
+TOR,TORPOL,https://www.biznesradar.pl/notowania/TORPOL,Budownictwo
+TPE,TAURONPE,https://www.biznesradar.pl/notowania/TAURON,Energia
+TRK,TRAKCJA,https://www.biznesradar.pl/notowania/TRAKCJA,Budownictwo
+TRN,TRANSPOL,https://www.biznesradar.pl/notowania/TRANS-POLONIA,Transport i logistyka
+TRR,TERMOREX,https://www.biznesradar.pl/notowania/TERMO-REX,Paliwa i gaz
+TSG,TESGAS,https://www.biznesradar.pl/notowania/TESGAS,Budownictwo
+TXT,TEXT,https://www.biznesradar.pl/notowania/TXT,Informatyka
+UCG,UNICREDIT,https://www.biznesradar.pl/notowania/UNICREDIT,Banki
+ULG,ULTGAMES,https://www.biznesradar.pl/notowania/ULG,Gry
+ULM,ULMA,https://www.biznesradar.pl/notowania/ULMA-CONSTRUCCION,Budownictwo
+UNF,UNFOLD,https://www.biznesradar.pl/notowania/UNF,Działalność inwestycyjna
+UNI,UNIBEP,https://www.biznesradar.pl/notowania/UNIBEP,Budownictwo
+UNT,UNIMOT,https://www.biznesradar.pl/notowania/UNIMOT-GAZ,Paliwa i gaz
+URT,URTESTE,https://www.biznesradar.pl/notowania/URT,Biotechnologia
+VGO,VIGOPHOTN,https://www.biznesradar.pl/notowania/VGO,Nowe technologie
+VIN,VINDEXUS,https://www.biznesradar.pl/notowania/VINDEXUS,Wierzytelności
+VOT,VOTUM,https://www.biznesradar.pl/notowania/VOTUM,Ubezpieczenia
+VOX,VOXEL,https://www.biznesradar.pl/notowania/VOXEL,Sprzęt i materiały medyczne
+VRC,VERCOM,https://www.biznesradar.pl/notowania/VRC,Informatyka
+VRG,VRG,https://www.biznesradar.pl/notowania/VRG,Odzież i kosmetyki
+VVD,VIVID,https://www.biznesradar.pl/notowania/VIVID-GAMES,Gry
+WAS,WASKO,https://www.biznesradar.pl/notowania/WASKO,Informatyka
+WIS,WINVEST,https://www.biznesradar.pl/notowania/WIS,Działalność inwestycyjna
+WLT,WIELTON,https://www.biznesradar.pl/notowania/WIELTON,Przemysł elektromaszynowy
+WPL,WIRTUALNA,https://www.biznesradar.pl/notowania/WIRTUALNA-POLSKA,Media
+WPR,WOODPCKR,https://www.biznesradar.pl/notowania/WPR,Informatyka
+WTN,WITTCHEN,https://www.biznesradar.pl/notowania/WTN,Odzież i kosmetyki
+WWL,WAWEL,https://www.biznesradar.pl/notowania/WAWEL,Artykuły spożywcze
+WXF,WARIMPEX,https://www.biznesradar.pl/notowania/WARIMPEX,Nieruchomości
+XPL,XPLUS,https://www.biznesradar.pl/notowania/XPLUS,Informatyka
+XTB,XTB,https://www.biznesradar.pl/notowania/XTB,Rynek kapitałowy
+XTP,XTPL,https://www.biznesradar.pl/notowania/XTP,Nowe technologie
+YAN,NEPTIS,https://www.biznesradar.pl/notowania/NEPTIS,Informatyka
+YRL,YARRL,https://www.biznesradar.pl/notowania/YARRL,Informatyka
+ZAB,ZABKA,https://www.biznesradar.pl/notowania/ZAB,Sieci handlowe
+ZAP,PULAWY,https://www.biznesradar.pl/notowania/ZAKLADY-AZOTOWE-PULAWY,Chemia
+ZEP,ZEPAK,https://www.biznesradar.pl/notowania/ZEPAK,Energia
+ZMT,ZAMET,https://www.biznesradar.pl/notowania/ZAMET-INDUSTRY,Przemysł elektromaszynowy
+ZRE,ZREMB,https://www.biznesradar.pl/notowania/ZREMB-CHOJNICE,Przemysł elektromaszynowy
+ZUE,ZUE,https://www.biznesradar.pl/notowania/ZUE,Budownictwo
+ZUK,STAPORKOW,https://www.biznesradar.pl/notowania/STAPORKOW,Przemysł elektromaszynowy

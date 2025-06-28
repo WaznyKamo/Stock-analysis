@@ -41,7 +41,7 @@ for stock in soup.find_all('tr', attrs={"class": "hot-row"}):
     print(industry) 
 
     stock_data.append({'ticker': ticker, 'name': name, 'adress': adress, 'industry': industry})
-    sleep(1)
+    sleep(2)
 
 stock_list = pd.DataFrame(stock_data)
 
