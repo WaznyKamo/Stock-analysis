@@ -6,6 +6,9 @@ from time import sleep
 
 stock_list_path = r"C:\Users\Kamil\OneDrive\Python projects\Stock-analysis\Data\stock_list.csv"
 
+url_rachunek_zyskow_i_strat = 'https://www.biznesradar.pl/raporty-finansowe-rachunek-zyskow-i-strat/'
+url_bilans = 'https://www.biznesradar.pl/raporty-finansowe-bilans/'
+url_przeplywy_pieniezne = 'https://www.biznesradar.pl/raporty-finansowe-przeplywy-pieniezne/'
 url_wartosc_rynkowa = 'https://www.biznesradar.pl/wskazniki-wartosci-rynkowej/'
 url_rentownosc = 'https://www.biznesradar.pl/wskazniki-rentownosci/'
 url_przeplywy_pieniezne = 'https://www.biznesradar.pl/wskazniki-przeplywow-pienieznych/'
@@ -14,6 +17,7 @@ url_plynnosc = 'https://www.biznesradar.pl/wskazniki-plynnosci/'
 url_aktywnosc = 'https://www.biznesradar.pl/wskazniki-aktywnosci/'
 
 market_val_list = []
+income_list = []
 profitability_list = []
 cash_flow_list = []
 liabilities_list = []
@@ -31,6 +35,19 @@ def get_quarters(soup):
         quarters.append(quarters_soup.text.split()[0])
     quarters.append(soup.find('th', attrs={"class": "thq h newest"}).text.split()[0])
     return quarters
+
+def get_date(soup, indicator_tag):
+    indicator_raw = soup.find('tr', attrs={"data-field": indicator_tag})
+    indicators = []
+    if indicator_raw:
+        for indicator_soup in indicator_raw.find_all("td", attrs={"class": "h"}):
+            if indicator_soup.find("span"):
+                indicators.append(indicator_soup.find("span").text)
+            else:
+                indicators.append(None)
+    else:
+        indicators = [None for _ in range(len(get_quarters(soup)))]
+    return indicators
 
 def get_indicator(soup, indicator_tag):
     indicator_raw = soup.find('tr', attrs={"data-field": indicator_tag})
@@ -50,7 +67,26 @@ for index, row in df_stock_list.iterrows():
     print('Loading data: ' + stock)
 
     # Financial reports
-    #TODO
+    # Income statement
+    soup_rzis = BeautifulSoup(requests.get(url_rachunek_zyskow_i_strat + stock + ',Q').text, features='html.parser')
+    if not soup_rzis.find('th', attrs={"class": "thq h newest"}):
+        print(f'No data found for {stock}, skipping...')
+        continue
+    
+    income_quarters = get_quarters(soup_rzis)
+    income = pd.DataFrame(list(zip(income_quarters)), columns=['Kwartały'])
+    income.insert(0, 'Ticker', stock)
+    income.insert(0, 'Nazwa', row['name'])
+    income['Data'] = get_date(soup_rzis, 'PrimaryReport')
+    income['Przychody ze sprzedaży'] = get_indicator(soup_rzis, 'IncomeRevenues')
+    income['Zysk ze sprzedaży'] = get_indicator(soup_rzis, 'IncomeGrossProfit')
+    income['Zysk operacyjny (EBIT)'] = get_indicator(soup_rzis, 'IncomeEBIT')
+    income['Zysk z działalności gospodarczej	'] = get_indicator(soup_rzis, 'IncomeNetGrossProfit')
+    income['Zysk przed opodatkowaniem'] = get_indicator(soup_rzis, 'IncomeBeforeTaxProfit')
+    income['Zysk netto'] = get_indicator(soup_rzis, 'IncomeNetProfit')
+    income['EBITDA'] = get_indicator(soup_rzis, 'IncomeEBITDA')
+
+    income_list.append(income)
 
     # Market value indicators
     soup_wr = BeautifulSoup(requests.get(url_wartosc_rynkowa + stock).text, features='html.parser')
@@ -84,6 +120,7 @@ for index, row in df_stock_list.iterrows():
     market_val.insert(0, 'Nazwa', row['name'])
 
     market_val_list.append(market_val)
+    
 
     # Profitability indicators
     soup_rentownosc = BeautifulSoup(requests.get(url_rentownosc + stock).text, features='html.parser')
@@ -150,10 +187,10 @@ for index, row in df_stock_list.iterrows():
     activity['Cykl operacyjny'] = get_indicator(soup_aktywnosc, 'COP')
     activity['Cykl konwersji gotówki'] = get_indicator(soup_aktywnosc, 'CSP')
     activity_list.append(activity)
-    print(activity)
     sleep(2)  # to avoid overwhelming the site
 
 
+pd.concat(income_list).to_csv('income', index=False)
 pd.concat(market_val_list).to_csv('market_value', index=False)
 pd.concat(profitability_list).to_csv('profitability', index=False)
 pd.concat(cash_flow_list).to_csv('cash_flow', index=False)
