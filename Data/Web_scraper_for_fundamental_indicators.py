@@ -81,7 +81,7 @@ for index, row in df_stock_list.iterrows():
     income['Przychody ze sprzedaży'] = get_indicator(soup_rzis, 'IncomeRevenues')
     income['Zysk ze sprzedaży'] = get_indicator(soup_rzis, 'IncomeGrossProfit')
     income['Zysk operacyjny (EBIT)'] = get_indicator(soup_rzis, 'IncomeEBIT')
-    income['Zysk z działalności gospodarczej	'] = get_indicator(soup_rzis, 'IncomeNetGrossProfit')
+    income['Zysk z działalności gospodarczej'] = get_indicator(soup_rzis, 'IncomeNetGrossProfit')
     income['Zysk przed opodatkowaniem'] = get_indicator(soup_rzis, 'IncomeBeforeTaxProfit')
     income['Zysk netto'] = get_indicator(soup_rzis, 'IncomeNetProfit')
     income['EBITDA'] = get_indicator(soup_rzis, 'IncomeEBITDA')
@@ -111,10 +111,10 @@ for index, row in df_stock_list.iterrows():
     EV_EBITDA = get_indicator(soup_wr, 'EVEBITDA')
 
     market_val = pd.DataFrame(list(zip(stock_quarters, Kurs, WK, C_WK, Z, C_Z, P, C_P, ZO, C_ZO, WK_Graham, C_WK_Graham, EV, EV_P, EV_EBITDA, EV_EBIT)),
-                              columns=['Kwartały', 'Kurs', 'Wartość księgowa', 'Cena/WK', 'Zysk na akcję', 'Cena/Zysk',
-                                       'Przychód', 'Cena/Przychód', 'Zysk operacyjny', 'Cena/Zysk operacyjny',
-                                       'Wartość księgowa Grahama', 'Cena/Wartość księgowa Grahama',
-                                       'Wartość przedsiębiorstwa', 'Wartość przedsiębiorstwa/Przychody',
+                              columns=['Kwartały', 'Kurs', 'Wartość księgowa na akcję', 'Cena/WK', 'Zysk na akcję', 'Cena/Zysk',
+                                       'Przychody ze sprzedaży na akcję', 'Cena/Przychód', 'Zysk operacyjny', 'Cena/Zysk operacyjny',
+                                       'Wartość księgowa Grahama na akcję', 'Cena/Wartość księgowa Grahama',
+                                       'Wartość przedsiębiorstwa na akcję', 'Wartość przedsiębiorstwa/Przychody',
                                        'Wartość przedsiębiorstwa/EBITDA', 'Wartość przedsiębiorstwa/EBIT'])
     market_val.insert(0, 'Ticker', stock)
     market_val.insert(0, 'Nazwa', row['name'])
@@ -190,11 +190,11 @@ for index, row in df_stock_list.iterrows():
     sleep(2)  # to avoid overwhelming the site
 
 
-pd.concat(income_list).to_csv('income', index=False)
-pd.concat(market_val_list).to_csv('market_value', index=False)
-pd.concat(profitability_list).to_csv('profitability', index=False)
-pd.concat(cash_flow_list).to_csv('cash_flow', index=False)
-pd.concat(liabilities_list).to_csv('liabilities', index=False)
-pd.concat(liquidity_list).to_csv('liquidity', index=False)
-pd.concat(activity_list).to_csv('activity', index=False)
+pd.concat(income_list).to_csv('income.csv', index=False)
+pd.concat(market_val_list).to_csv('market_value.csv', index=False)
+pd.concat(profitability_list).to_csv('profitability.csv', index=False)
+pd.concat(cash_flow_list).to_csv('cash_flow.csv', index=False)
+pd.concat(liabilities_list).to_csv('liabilities.csv', index=False)
+pd.concat(liquidity_list).to_csv('liquidity.csv', index=False)
+pd.concat(activity_list).to_csv('activity.csv', index=False)
 print('Files created')
