@@ -13,15 +13,21 @@ all_numeric_cols = indicators.select_dtypes(include='number').columns.tolist()
 
 st.subheader("Filtruj dane")
 
+# Przycisk resetowania filtrów (poza formularzem)
+if st.button("🔄 Odśwież"):
+    st.session_state.filters = [{"col": "", "op": ">=", "val": 0.0}]
+
+# Przycisk dodawania nowego filtra (poza formularzem)
+already_selected = [f["col"] for f in st.session_state.filters if f["col"]]
+remaining_cols = [col for col in all_numeric_cols if col not in already_selected]
+if st.button("➕ Dodaj nowy wskaźnik") and remaining_cols:
+    st.session_state.filters.append({"col": "", "op": ">=", "val": 0.0})
+
 # Formularz z filtrami
 with st.form("filter_form"):
     used_cols = []
-
-    reset = st.form_submit_button("🔄 Odśwież")
-
     for i, filt in enumerate(st.session_state.filters):
         available_cols = [col for col in all_numeric_cols if col not in used_cols or col == filt["col"]]
-
         col1, col2, col3 = st.columns([2, 1, 2])
         with col1:
             filt["col"] = st.selectbox(
@@ -36,24 +42,7 @@ with st.form("filter_form"):
         with col3:
             filt["val"] = st.number_input("Wartość", value=filt["val"], key=f"val_{i}")
 
-    # Przycisk dodający nowy filtr
-    add_filter = st.form_submit_button("➕ Dodaj nowy wskaźnik")
-
     submitted = st.form_submit_button("✅ Filtruj")
-    
-
-# Obsługa dodania nowego filtra
-if add_filter:
-    already_selected = [f["col"] for f in st.session_state.filters if f["col"]]
-    remaining_cols = [col for col in all_numeric_cols if col not in already_selected]
-    if remaining_cols:
-        st.session_state.filters.append({"col": "", "op": ">=", "val": 0.0})
-    else:
-        st.warning("Wszystkie dostępne wskaźniki zostały już użyte.")
-
-# Obsługa resetowania filtrów
-if reset:
-    st.session_state.filters = [{"col": "", "op": ">=", "val": 0.0}]
 
 # Filtrowanie danych
 if submitted:
