@@ -20,9 +20,9 @@ with col1:
 
     
 
-    dostepne_spolki = all_data['Ticker'].unique()
+    dostepne_spolki = all_data['Nazwa'].unique()
     wybrana_spolka = st.selectbox("Wybierz spółkę", sorted(dostepne_spolki))
-    all_data_filtered = all_data[all_data['Ticker'] == wybrana_spolka]
+    all_data_filtered = all_data[all_data['Nazwa'] == wybrana_spolka]
 
     kolumny_danych = [col for col in all_data.columns if col not in  ['Data', 'Ticker', 'Kwartały', 'Nazwa']]
 

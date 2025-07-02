@@ -63,7 +63,7 @@ def get_indicator(soup, indicator_tag):
     return indicators
 
 for index, row in df_stock_list.iterrows():
-    stock = row['ticker']
+    stock = row['adress'].split('/')[-1]
     print('Loading data: ' + stock)
 
     # Financial reports
