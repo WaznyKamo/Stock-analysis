@@ -4,7 +4,12 @@ from Sripts.data_visualisation import plot_multiple_y_axes
 
 # st.set_page_config(page_title="Wizualizacja wskaźników", layout="wide")
 
-df_ind = prepare_indicator_data()
+# all_data = prepare_indicator_data()
+
+if "all_data" not in st.session_state or st.session_state.all_data.empty:
+    st.warning("Brak danych do wyświetlenia.")
+else:
+    all_data = st.session_state.all_data
 
 st.title("📊 Wizualizacja wskaźników")
 
@@ -15,11 +20,11 @@ with col1:
 
     
 
-    dostepne_spolki = df_ind['Spółka'].unique()
+    dostepne_spolki = all_data['Ticker'].unique()
     wybrana_spolka = st.selectbox("Wybierz spółkę", sorted(dostepne_spolki))
-    df_ind_filtered = df_ind[df_ind['Spółka'] == wybrana_spolka]
+    all_data_filtered = all_data[all_data['Ticker'] == wybrana_spolka]
 
-    kolumny_danych = [col for col in df_ind.columns if col not in  ['Data', 'Spółka', 'Kwartały']]
+    kolumny_danych = [col for col in all_data.columns if col not in  ['Data', 'Ticker', 'Kwartały', 'Nazwa']]
 
     if 'kolumny_wykres' not in st.session_state:
         st.session_state.kolumny_wykres = [kolumny_danych[0]]
@@ -48,4 +53,4 @@ with col1:
 
 with col2:
     st.subheader(f"Wykres: {wybrana_spolka}")
-    plot_multiple_y_axes(df_ind_filtered, st.session_state.kolumny_wykres, title_prefix="Wskaźniki")
+    plot_multiple_y_axes(all_data_filtered, st.session_state.kolumny_wykres, title_prefix="Wskaźniki")
