@@ -10,7 +10,7 @@ def plot_multiple_y_axes(df, columns, title_prefix="Wykres"):
     colors = ['blue', 'green', 'red', 'orange', 'purple', 'brown', 'gray', 'cyan', 'magenta']
 
     # Rezerwujemy przestrzeń od 0.8 do 1.0 na dodatkowe osie Y po prawej
-    min_position = 0.8
+    min_position = 0.85
     max_position = 1.0
     num_additional_axes = len(columns) - 1
 
@@ -49,7 +49,7 @@ def plot_multiple_y_axes(df, columns, title_prefix="Wykres"):
         xaxis=dict(
             title='Data',
             tickfont=dict(size=10),
-            domain=[0.0, 0.8],  # Os X zajmuje do 80% szerokości wykresu
+            domain=[0.0, 0.85],  # Os X zajmuje do 80% szerokości wykresu
         ),
         yaxis=dict(
             title=None,  # <-- Ukryj tytuł osi Y
@@ -62,7 +62,9 @@ def plot_multiple_y_axes(df, columns, title_prefix="Wykres"):
             xanchor="center",
             x=0.5
         ),
-        margin=dict(l=60, r=120, t=80, b=100)  # Więcej miejsca po prawej na osie Y
+        margin=dict(l=60, r=0, t=80, b=100),  # Więcej miejsca po prawej na osie Y
+        width=1400,  # <-- ZWIĘKSZ SZEROKOŚĆ WYKRESU
+        height=700   # <-- ZWIĘKSZ WYSOKOŚĆ WYKRESU
     )
 
     st.plotly_chart(fig, use_container_width=True)
