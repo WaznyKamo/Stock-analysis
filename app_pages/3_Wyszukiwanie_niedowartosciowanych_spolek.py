@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("🕵️‍♂️ Wyszukiwanie niedowartościowanych spółek")
+st.title("Wyszukiwanie niedowartościowanych spółek")
 st.write("Narzędzie do identyfikacji spółek o wysokim potencjale wzrostu.")
 
 # Inicjalizacja filtrów

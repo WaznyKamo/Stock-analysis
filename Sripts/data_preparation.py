@@ -1,6 +1,46 @@
 import pandas as pd
 import streamlit as st
 import os
+import numpy as np
+
+
+@st.cache_data
+def prepare_indicator_data():
+    all_data = pd.read_csv('Data/Quarterly_data/app_all_data.csv')
+    income_yearly = pd.read_csv('Data/Quarterly_data/app_income_yearly.csv')
+    indicators = pd.read_csv('Data/Quarterly_data/app_indicators.csv')
+    financial_report = pd.read_csv('Data/Yearly_data/financial_report.csv')
+    
+    return all_data, income_yearly, indicators, financial_report
+
+@st.cache_data
+def calculate_cagr(financial_report, window):
+    cols_to_analyze = [col for col in financial_report.columns if col not in ['Spółka', 'Rok', 'Lata raportu']]
+    results = []
+
+    for company, group in financial_report.groupby('Spółka'):
+        row = {'Spółka': company}
+        for col in cols_to_analyze:
+            try:
+                if window == "Brak":
+                    # Najnowszy rekord (Lata raportu == 0), najstarszy rekord (Lata raportu == max)
+                    val_0 = group.loc[group['Lata raportu'] == 0, col].values[0]
+                    val_w = group.loc[group['Lata raportu'] == group['Lata raportu'].max(), col].values[0]
+                    n = group['Lata raportu'].max()
+                else:
+                    val_0 = group.loc[group['Lata raportu'] == 0, col].values[0]
+                    val_w = group.loc[group['Lata raportu'] == window, col].values[0]
+                    n = window
+                if pd.notnull(val_0) and pd.notnull(val_w) and val_w != 0 and (val_0 / val_w) > 0:
+                    row[col] = round(((val_0 / val_w) ** (1/n) - 1) * 100, 2)
+                else:
+                    row[col] = np.nan
+            except IndexError:
+                row[col] = np.nan
+        results.append(row)
+
+    df_window_ratio = pd.DataFrame(results)
+    return df_window_ratio
 
 # def quarter_to_date(quarter):
 #         # Mapowanie kwartałów na miesiące
@@ -41,14 +81,6 @@ import os
 #         print('Loaded file: ' + filename)
 
 #     return df_price
-
-@st.cache_data
-def prepare_indicator_data():
-    all_data = pd.read_csv('Data/app_all_data.csv')
-    income_yearly = pd.read_csv('Data/app_income_yearly.csv')
-    indicators = pd.read_csv('Data/app_indicators.csv')
-    
-    return all_data, income_yearly, indicators
 
 # @st.cache_data
 # def prepare_latest_indicator_data():

@@ -5,14 +5,15 @@ st.set_page_config(page_title="Aplikacja Finansowa", layout="wide")
 
 # Wczytaj dane tylko raz
 if "df_ind" not in st.session_state:
-    st.session_state.all_data, st.session_state.income_yearly, st.session_state.indicators = prepare_indicator_data()
+    st.session_state.all_data, st.session_state.income_yearly, st.session_state.indicators, st.session_state.financial_report = prepare_indicator_data()
 
 
 
 pages = [
-    st.Page("app_pages/1_strona_glowna.py", title="Strona główna", icon="🏠"),
-    st.Page("app_pages/2_wizualizacja_wskaznikow.py", title="Wizualizacja wskaźników", icon="📊"),
-    st.Page("app_pages/3_Wyszukiwanie_niedowartosciowanych_spolek.py", title="Wyszukiwanie niedowartościowanych spółek", icon="🕵️‍♂️")
+    st.Page("app_pages/1_strona_glowna.py", title="Strona główna"),
+    st.Page("app_pages/2_wizualizacja_wskaznikow.py", title="Wizualizacja wskaźników",),
+    st.Page("app_pages/3_Wyszukiwanie_niedowartosciowanych_spolek.py", title="Wyszukiwanie niedowartościowanych spółek"),
+    st.Page("app_pages/4_Wyszukiwanie_rozwojowych_spolek.py", title="Wyszukiwanie rozwojowych spółek")
 ]
 
 pg = st.navigation(pages, position="sidebar", expanded=True)

@@ -11,7 +11,7 @@ if "all_data" not in st.session_state or st.session_state.all_data.empty:
 else:
     all_data = st.session_state.all_data
 
-st.title("📊 Wizualizacja wskaźników")
+st.title("Wizualizacja wskaźników")
 
 col1, col2 = st.columns([1, 3])  # lewa kolumna na wybór, prawa na wykres
 
