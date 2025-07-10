@@ -30,7 +30,7 @@ with col1:
         st.session_state.kolumny_wykres = [kolumny_danych[0]]
 
 
-    if st.button("➕ Dodaj kolumnę"):
+    if st.button("➕ Dodaj informację na wykresie"):
         niewybrane = [k for k in kolumny_danych if k not in st.session_state.kolumny_wykres]
         if niewybrane:
             st.session_state.kolumny_wykres.append(niewybrane[0])
@@ -45,12 +45,13 @@ with col1:
 
 
 
-    if st.button("🔄 Odśwież"):
+    if st.button("🔄 Zresetuj wykres"):
         st.session_state.kolumny_wykres = []
         if 'spolka' in st.session_state:
             del st.session_state['spolka']
         st.rerun()
 
 with col2:
+    st.info("Poniższy wykres jest interaktywny. Zaznaczenie pola pozwala przybliżyć dane. Podwójne kliknięcie przywraca widok początkowy.")
     st.subheader(f"Wykres: {wybrana_spolka}")
     plot_multiple_y_axes(all_data_filtered, st.session_state.kolumny_wykres, title_prefix="Wskaźniki")

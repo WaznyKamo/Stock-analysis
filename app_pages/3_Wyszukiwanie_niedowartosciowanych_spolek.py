@@ -3,6 +3,7 @@ import pandas as pd
 
 st.title("Wyszukiwanie niedowartościowanych spółek")
 st.write("Narzędzie do identyfikacji spółek o wysokim potencjale wzrostu.")
+st.info("Dane kwotowe są wyrażone w tysiącach złotych. Dane procentowe w procentach.")
 
 # Inicjalizacja filtrów
 if "filters" not in st.session_state:
@@ -14,13 +15,13 @@ all_numeric_cols = indicators.select_dtypes(include='number').columns.tolist()
 st.subheader("Filtruj dane")
 
 # Przycisk resetowania filtrów (poza formularzem)
-if st.button("🔄 Odśwież"):
+if st.button("🔄 Zresetuj filtry"):
     st.session_state.filters = [{"col": "", "op": ">=", "val": 0.0}]
 
 # Przycisk dodawania nowego filtra (poza formularzem)
 already_selected = [f["col"] for f in st.session_state.filters if f["col"]]
 remaining_cols = [col for col in all_numeric_cols if col not in already_selected]
-if st.button("➕ Dodaj nowy wskaźnik") and remaining_cols:
+if st.button("➕ Dodaj kolejny filtr") and remaining_cols:
     st.session_state.filters.append({"col": "", "op": ">=", "val": 0.0})
 
 # Formularz z filtrami
